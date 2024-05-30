@@ -1,0 +1,1801 @@
+2024-05-29 20:20:25 TC_001 - Complete Monthly sale in Homeserve with PaymetType as Credit or Debit Card
+
+2024-05-29 20:20:30 Site: Homeserve
+
+2024-05-29 20:20:30 URL: https://www.reghomeserve.com/?ncr=true
+
+2024-05-29 20:20:51 Clicked on Close cookies element
+
+2024-05-29 20:20:52 Clicked on Enter Zip element
+
+2024-05-29 20:21:02 Enter the zipcode: 08512
+
+2024-05-29 20:21:02 Clicked on View Plans element
+
+2024-05-29 20:21:16 Clicked on View available plans element
+
+2024-05-29 20:21:16 Clicked on Add to cart element
+
+2024-05-29 20:21:26 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:21:32 Clicked on Proceed To Checkout element
+
+2024-05-29 20:21:54 Clicked on Checkout element
+
+2024-05-29 20:22:04 Clicked on Bill Frequency element
+
+2024-05-29 20:22:04 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:22:18 Clicked on Continue to Payment Information element
+
+2024-05-29 20:22:28 Clicked on Yes, use this address element
+
+2024-05-29 20:22:40 Clicked on Checking Account element
+
+2024-05-29 20:22:53 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 20:23:06 -------------------------------------------------------------------------------------------------
+2024-05-29 20:23:06 TC_024 - Complete Monthly sale in Ottawa with PaymetType as Credit or Debit Card
+
+2024-05-29 20:23:10 Site: ottawa
+
+2024-05-29 20:23:10 URL: https://preprod.slwofc.ca/mail/ottawa
+
+2024-05-29 20:23:30 Clicked on Close cookies element
+
+2024-05-29 20:23:41 Clicked on Select A Plan element
+
+2024-05-29 20:23:41 Clicked on Add to cart element
+
+2024-05-29 20:23:51 product is added to Cart successfully
+
+2024-05-29 20:23:54 Clicked on Proceed To Checkout element
+
+2024-05-29 20:24:06 Clicked on Proceed To Checkout element
+
+2024-05-29 20:24:17 Clicked on Monthly element
+
+2024-05-29 20:24:17 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:24:28 Enter the zipcode: K7S 0A2
+
+2024-05-29 20:24:29 Clicked on Choose Payment Type element
+
+2024-05-29 20:24:39 Clicked on add card element
+
+2024-05-29 20:24:42 Clicked on completeSecureCheckout element
+
+2024-05-29 20:24:52 Clicked on use the address element
+
+2024-05-29 20:25:06 Order Number is: H861817
+
+2024-05-29 20:25:06 Sale completed.
+
+2024-05-29 20:25:11 OrderNumber from EMail= Order number: H861817
+
+2024-05-29 20:25:11 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 20:25:22 -------------------------------------------------------------------------------------------------
+2024-05-29 20:25:22 TC_016 - Complete Monthly sale in slwofc with PaymetType using Credit or Debit Card
+
+2024-05-29 20:25:30 Site: slwofc
+
+2024-05-29 20:25:30 URL: https://preprod.slwofc.ca
+
+2024-05-29 20:25:46 Clicked on Close cookies element
+
+2024-05-29 20:25:46 Clicked on Enter Your ZIP Code element
+
+2024-05-29 20:25:47 Enter the zipcode: K7S 0A1
+
+2024-05-29 20:25:47 Clicked on Get a quote element
+
+2024-05-29 20:25:57 Clicked on Add to cart element
+
+2024-05-29 20:26:07 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:26:09 Clicked on Proceed To Checkout element
+
+2024-05-29 20:26:22 Clicked on Proceed To Checkout element
+
+2024-05-29 20:26:32 Clicked on Monthly element
+
+2024-05-29 20:26:32 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:26:44 Clicked on Choose Payment Type element
+
+2024-05-29 20:26:52 Clicked on add card element
+
+2024-05-29 20:26:54 Clicked on completeSecureCheckout element
+
+2024-05-29 20:27:04 Clicked on use the address element
+
+2024-05-29 20:27:16 Order Number is: H861819
+
+2024-05-29 20:27:16 Sale completed.
+
+2024-05-29 20:27:20 OrderNumber from EMail= Order number: H861819
+
+2024-05-29 20:27:20 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 20:27:31 -------------------------------------------------------------------------------------------------
+2024-05-29 20:27:31 TC_039 - Complete a sale in HomeServe aepindianamichigan-Michigan
+
+2024-05-29 20:27:35 Site: aepindianamichigan
+
+2024-05-29 20:27:35 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-29 20:27:52 Clicked on Close cookies element
+
+2024-05-29 20:27:54 Clicked on OK element
+
+2024-05-29 20:28:05 Clicked on Add to cart element
+
+2024-05-29 20:28:15 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:28:16 Clicked on Proceed To Checkout element
+
+2024-05-29 20:28:28 Clicked on Proceed To Checkout element
+
+2024-05-29 20:28:49 Enter the zipcode: 48201
+
+2024-05-29 20:28:52 Clicked on complete secure checkout element
+
+2024-05-29 20:28:52 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 20:29:02 -------------------------------------------------------------------------------------------------
+2024-05-29 20:29:03 TC_040 - Complete a sale in HomeServe aepindianamichigan-Indiana
+
+2024-05-29 20:29:06 Site: aepindianamichigan
+
+2024-05-29 20:29:06 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-29 20:29:25 Clicked on Close cookies element
+
+2024-05-29 20:29:27 Clicked on OK element
+
+2024-05-29 20:29:38 Clicked on Add to cart element
+
+2024-05-29 20:29:48 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:29:49 Clicked on Proceed To Checkout element
+
+2024-05-29 20:30:02 Clicked on Proceed To Checkout element
+
+2024-05-29 20:30:24 Enter the zipcode: 46001
+
+2024-05-29 20:30:27 Clicked on complete secure checkout element
+
+2024-05-29 20:30:27 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 20:30:37 -------------------------------------------------------------------------------------------------
+2024-05-29 20:30:38 TC_033 - Complete Monthly sale in buffalowaternipcnew with PaymetType as Credit or Debit Card
+
+2024-05-29 20:30:41 Site: buffalowaternipcnew
+
+2024-05-29 20:30:41 URL: https://www.reghomeserve.com/sc/mail/buffalowaternipcnew 
+
+2024-05-29 20:31:01 Clicked on Close cookies element
+
+2024-05-29 20:31:11 Clicked on Add to cart element
+
+2024-05-29 20:31:21 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:31:26 Clicked on Proceed To Checkout element
+
+2024-05-29 20:31:46 Clicked on Monthly element
+
+2024-05-29 20:31:46 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:31:57 Enter the zipcode: 10001
+
+2024-05-29 20:32:01 Clicked on Choose Payment Type element
+
+2024-05-29 20:32:07 Clicked on cardtype element
+
+2024-05-29 20:32:07 Clicked on cardExpiryMonth element
+
+2024-05-29 20:32:07 Clicked on cardExpiryYear element
+
+2024-05-29 20:32:07 Clicked on Next Button element
+
+2024-05-29 20:32:13 Clicked on Complete Secure Checkout element
+
+2024-05-29 20:32:23 Clicked on use the address element
+
+2024-05-29 20:32:33 Order Number is: H861822
+
+2024-05-29 20:32:33 Sale completed.
+
+2024-05-29 20:32:36 OrderNumber from EMail= Order number: H861822
+
+2024-05-29 20:32:36 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 20:32:47 -------------------------------------------------------------------------------------------------
+2024-05-29 20:32:48 TC_048 - Complete an sale for firstenergy-fundle
+
+2024-05-29 20:32:51 Site: firstenergy-fundle
+
+2024-05-29 20:32:51 URL: https://www.reghomeserve.com/sc/mail/firstenergy-fundle 
+
+2024-05-29 20:33:12 Clicked on Close cookies element
+
+2024-05-29 20:33:13 Clicked on Add to cart element
+
+2024-05-29 20:33:23 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:33:26 Clicked on Proceed To Checkout element
+
+2024-05-29 20:33:58 Enter the zipcode: 15072
+
+2024-05-29 20:34:00 Clicked on complete secure checkout element
+
+2024-05-29 20:34:00 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 20:34:11 -------------------------------------------------------------------------------------------------
+2024-05-29 20:34:11 TC_007 - Complete Monthly sale in HomeServe-CE with PaymetType as Checking Account
+
+2024-05-29 20:34:14 Site: HomeServe-CE
+
+2024-05-29 20:34:14 URL: https://www.reghomeserve.com/sc/mail/homeserve-ce
+
+2024-05-29 20:34:43 Clicked on Close cookies element
+
+2024-05-29 20:34:43 Clicked on Add to cart element
+
+2024-05-29 20:34:53 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:35:01 Clicked on Proceed To Checkout element
+
+2024-05-29 20:35:21 Clicked on Monthly element
+
+2024-05-29 20:35:21 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:35:32 Enter the zipcode: 10013
+
+2024-05-29 20:35:36 Clicked on Checking Account element
+
+2024-05-29 20:35:37 Clicked on completeSecureCheckout element
+
+2024-05-29 20:35:37 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 20:35:47 -------------------------------------------------------------------------------------------------
+2024-05-29 20:35:47 TC_047 - Complete a sale in HomeServe kypower-tabs
+
+2024-05-29 20:35:50 Site: kypower-tabs
+
+2024-05-29 20:35:50 URL: https://www.reghomeserve.com/sc/mail/kypower-tabs 
+
+2024-05-29 20:36:11 Clicked on Close cookies element
+
+2024-05-29 20:36:11 Element Select Electrical Tab was not clickable in time
+2024-05-29 20:36:21 -------------------------------------------------------------------------------------------------
+2024-05-29 20:36:22 TC_027 - Complete a Monthly sale in HomeServe-lasanitation with PaymentType as Credit or Debit Card
+
+2024-05-29 20:36:25 Site: lasanitation
+
+2024-05-29 20:36:25 URL: https://preprod.slwofa.com/mail/lasanitation 
+
+2024-05-29 20:36:42 Clicked on Close cookies element
+
+2024-05-29 20:36:42 Clicked on Add to cart element
+
+2024-05-29 20:36:52 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:36:55 Clicked on Proceed To Checkout element
+
+2024-05-29 20:37:26 Enter the zipcode: 90001
+
+2024-05-29 20:37:28 Clicked on Monthly element
+
+2024-05-29 20:37:28 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:37:30 Clicked on Choose Payment Type element
+
+2024-05-29 20:37:35 Clicked on cardtype element
+
+2024-05-29 20:37:36 Clicked on cardExpiryMonth element
+
+2024-05-29 20:37:36 Clicked on cardExpiryYear element
+
+2024-05-29 20:37:36 Clicked on Next Button element
+
+2024-05-29 20:37:41 Clicked on Complete Secure Checkout element
+
+2024-05-29 20:37:51 Clicked on use the address element
+
+2024-05-29 20:38:02 Order Number is: H861824
+
+2024-05-29 20:38:02 Sale completed.
+
+2024-05-29 20:38:06 OrderNumber from EMail= Order number: H861824
+
+2024-05-29 20:38:06 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 20:38:17 -------------------------------------------------------------------------------------------------
+2024-05-29 20:38:17 TC_041 - Complete Monthly sale in wvwachoice with PaymetType as Credit or Debit Card
+
+2024-05-29 20:38:21 Site: wvwachoice
+
+2024-05-29 20:38:21 URL: https://www.reghomeserve.com/sc/mail/wvwachoice
+
+2024-05-29 20:38:39 Clicked on Close cookies element
+
+2024-05-29 20:38:39 Clicked on Add to cart element
+
+2024-05-29 20:38:49 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:38:53 Clicked on Proceed To Checkout element
+
+2024-05-29 20:39:09 Clicked on Proceed To Checkout element
+
+2024-05-29 20:39:19 Clicked on Monthly element
+
+2024-05-29 20:39:19 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:39:30 Enter the zipcode: 22209
+
+2024-05-29 20:39:34 Clicked on Choose Payment Type element
+
+2024-05-29 20:39:40 Clicked on cardtype element
+
+2024-05-29 20:39:40 Clicked on cardExpiryMonth element
+
+2024-05-29 20:39:40 Clicked on cardExpiryYear element
+
+2024-05-29 20:39:40 Clicked on Next Button element
+
+2024-05-29 20:39:46 Clicked on Complete Secure Checkout element
+
+2024-05-29 20:39:56 Clicked on use the address element
+
+2024-05-29 20:40:06 Order Number is: H861826
+
+2024-05-29 20:40:06 Sale completed.
+
+2024-05-29 20:40:10 OrderNumber from EMail= Order number: H861826
+
+2024-05-29 20:40:10 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 20:40:21 -------------------------------------------------------------------------------------------------
+2024-05-29 20:48:39 TC_001 - Complete Monthly sale in Homeserve with PaymetType as Credit or Debit Card
+
+2024-05-29 20:48:45 Site: Homeserve
+
+2024-05-29 20:48:45 URL: https://www.reghomeserve.com/?ncr=true
+
+2024-05-29 20:49:08 Clicked on Close cookies element
+
+2024-05-29 20:49:08 Clicked on Enter Zip element
+
+2024-05-29 20:49:18 Enter the zipcode: 08512
+
+2024-05-29 20:49:19 Clicked on View Plans element
+
+2024-05-29 20:49:34 Clicked on View available plans element
+
+2024-05-29 20:49:34 Clicked on Add to cart element
+
+2024-05-29 20:49:44 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:49:45 Clicked on Proceed To Checkout element
+
+2024-05-29 20:50:26 -------------------------------------------------------------------------------------------------
+2024-05-29 20:50:26 TC_024 - Complete Monthly sale in Ottawa with PaymetType as Credit or Debit Card
+
+2024-05-29 20:50:29 Site: ottawa
+
+2024-05-29 20:50:29 URL: https://preprod.slwofc.ca/mail/ottawa
+
+2024-05-29 20:50:47 Clicked on Close cookies element
+
+2024-05-29 20:50:57 Clicked on Select A Plan element
+
+2024-05-29 20:51:00 Clicked on Add to cart element
+
+2024-05-29 20:51:10 product is added to Cart successfully
+
+2024-05-29 20:51:12 Clicked on Proceed To Checkout element
+
+2024-05-29 20:51:25 Clicked on Proceed To Checkout element
+
+2024-05-29 20:51:35 Clicked on Monthly element
+
+2024-05-29 20:51:35 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:51:46 Enter the zipcode: K7S 0A2
+
+2024-05-29 20:51:47 Clicked on Choose Payment Type element
+
+2024-05-29 20:51:55 Clicked on add card element
+
+2024-05-29 20:51:57 Clicked on completeSecureCheckout element
+
+2024-05-29 20:52:08 Clicked on use the address element
+
+2024-05-29 20:52:23 Order Number is: H861830
+
+2024-05-29 20:52:23 Sale completed.
+
+2024-05-29 20:52:27 OrderNumber from EMail= Order number: H861830
+
+2024-05-29 20:52:27 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 20:52:37 -------------------------------------------------------------------------------------------------
+2024-05-29 20:52:38 TC_016 - Complete Monthly sale in slwofc with PaymetType using Credit or Debit Card
+
+2024-05-29 20:52:41 Site: slwofc
+
+2024-05-29 20:52:41 URL: https://preprod.slwofc.ca
+
+2024-05-29 20:53:00 Clicked on Close cookies element
+
+2024-05-29 20:53:01 Clicked on Enter Your ZIP Code element
+
+2024-05-29 20:53:02 Enter the zipcode: K7S 0A1
+
+2024-05-29 20:53:02 Clicked on Get a quote element
+
+2024-05-29 20:53:12 Clicked on Add to cart element
+
+2024-05-29 20:53:22 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:53:24 Clicked on Proceed To Checkout element
+
+2024-05-29 20:53:37 Clicked on Proceed To Checkout element
+
+2024-05-29 20:53:47 Clicked on Monthly element
+
+2024-05-29 20:53:47 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:53:59 Clicked on Choose Payment Type element
+
+2024-05-29 20:54:08 Clicked on add card element
+
+2024-05-29 20:54:10 Clicked on completeSecureCheckout element
+
+2024-05-29 20:54:20 Clicked on use the address element
+
+2024-05-29 20:54:35 Order Number is: H861832
+
+2024-05-29 20:54:35 Sale completed.
+
+2024-05-29 20:54:40 OrderNumber from EMail= Order number: H861832
+
+2024-05-29 20:54:40 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 20:54:51 -------------------------------------------------------------------------------------------------
+2024-05-29 20:54:51 TC_039 - Complete a sale in HomeServe aepindianamichigan-Michigan
+
+2024-05-29 20:54:55 Site: aepindianamichigan
+
+2024-05-29 20:54:55 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-29 20:55:12 Clicked on Close cookies element
+
+2024-05-29 20:55:15 Clicked on OK element
+
+2024-05-29 20:55:25 Clicked on Add to cart element
+
+2024-05-29 20:55:35 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:55:38 Clicked on Proceed To Checkout element
+
+2024-05-29 20:55:51 Clicked on Proceed To Checkout element
+
+2024-05-29 20:56:13 Enter the zipcode: 48201
+
+2024-05-29 20:56:15 Clicked on complete secure checkout element
+
+2024-05-29 20:56:15 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 20:56:26 -------------------------------------------------------------------------------------------------
+2024-05-29 20:56:26 TC_040 - Complete a sale in HomeServe aepindianamichigan-Indiana
+
+2024-05-29 20:56:29 Site: aepindianamichigan
+
+2024-05-29 20:56:29 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-29 20:56:57 Clicked on Close cookies element
+
+2024-05-29 20:56:59 Clicked on OK element
+
+2024-05-29 20:57:10 Clicked on Add to cart element
+
+2024-05-29 20:57:20 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:57:24 Clicked on Proceed To Checkout element
+
+2024-05-29 20:57:37 Clicked on Proceed To Checkout element
+
+2024-05-29 20:57:58 Enter the zipcode: 46001
+
+2024-05-29 20:58:01 Clicked on complete secure checkout element
+
+2024-05-29 20:58:01 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 20:58:11 -------------------------------------------------------------------------------------------------
+2024-05-29 20:58:12 TC_033 - Complete Monthly sale in buffalowaternipcnew with PaymetType as Credit or Debit Card
+
+2024-05-29 20:58:15 Site: buffalowaternipcnew
+
+2024-05-29 20:58:15 URL: https://www.reghomeserve.com/sc/mail/buffalowaternipcnew 
+
+2024-05-29 20:58:33 Clicked on Close cookies element
+
+2024-05-29 20:58:43 Clicked on Add to cart element
+
+2024-05-29 20:58:53 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 20:58:57 Clicked on Proceed To Checkout element
+
+2024-05-29 20:59:17 Clicked on Monthly element
+
+2024-05-29 20:59:17 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 20:59:28 Enter the zipcode: 10001
+
+2024-05-29 20:59:32 Clicked on Choose Payment Type element
+
+2024-05-29 20:59:38 Clicked on cardtype element
+
+2024-05-29 20:59:38 Clicked on cardExpiryMonth element
+
+2024-05-29 20:59:38 Clicked on cardExpiryYear element
+
+2024-05-29 20:59:38 Clicked on Next Button element
+
+2024-05-29 20:59:44 Clicked on Complete Secure Checkout element
+
+2024-05-29 20:59:54 Clicked on use the address element
+
+2024-05-29 21:00:09 Order Number is: H861834
+
+2024-05-29 21:00:09 Sale completed.
+
+2024-05-29 21:00:13 OrderNumber from EMail= Order number: H861834
+
+2024-05-29 21:00:13 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:00:24 -------------------------------------------------------------------------------------------------
+2024-05-29 21:00:24 TC_048 - Complete an sale for firstenergy-fundle
+
+2024-05-29 21:00:27 Site: firstenergy-fundle
+
+2024-05-29 21:00:27 URL: https://www.reghomeserve.com/sc/mail/firstenergy-fundle 
+
+2024-05-29 21:00:50 Clicked on Close cookies element
+
+2024-05-29 21:00:51 Clicked on Add to cart element
+
+2024-05-29 21:01:01 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:01:04 Clicked on Proceed To Checkout element
+
+2024-05-29 21:01:36 Enter the zipcode: 15072
+
+2024-05-29 21:01:38 Clicked on complete secure checkout element
+
+2024-05-29 21:01:38 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 21:01:49 -------------------------------------------------------------------------------------------------
+2024-05-29 21:01:49 TC_007 - Complete Monthly sale in HomeServe-CE with PaymetType as Checking Account
+
+2024-05-29 21:01:52 Site: HomeServe-CE
+
+2024-05-29 21:01:52 URL: https://www.reghomeserve.com/sc/mail/homeserve-ce
+
+2024-05-29 21:02:12 Clicked on Close cookies element
+
+2024-05-29 21:02:13 Clicked on Add to cart element
+
+2024-05-29 21:02:23 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:02:26 Clicked on Proceed To Checkout element
+
+2024-05-29 21:02:46 Clicked on Monthly element
+
+2024-05-29 21:02:46 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:02:58 Enter the zipcode: 10013
+
+2024-05-29 21:03:00 Clicked on Checking Account element
+
+2024-05-29 21:03:01 Clicked on completeSecureCheckout element
+
+2024-05-29 21:03:01 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 21:03:12 -------------------------------------------------------------------------------------------------
+2024-05-29 21:03:12 TC_027 - Complete a Monthly sale in HomeServe-lasanitation with PaymentType as Credit or Debit Card
+
+2024-05-29 21:03:15 Site: lasanitation
+
+2024-05-29 21:03:15 URL: https://preprod.slwofa.com/mail/lasanitation 
+
+2024-05-29 21:03:31 Clicked on Close cookies element
+
+2024-05-29 21:03:31 Clicked on Add to cart element
+
+2024-05-29 21:03:41 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:03:43 Clicked on Proceed To Checkout element
+
+2024-05-29 21:04:14 Enter the zipcode: 90001
+
+2024-05-29 21:04:17 Clicked on Monthly element
+
+2024-05-29 21:04:17 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:04:20 Clicked on Choose Payment Type element
+
+2024-05-29 21:04:25 Clicked on cardtype element
+
+2024-05-29 21:04:26 Clicked on cardExpiryMonth element
+
+2024-05-29 21:04:26 Clicked on cardExpiryYear element
+
+2024-05-29 21:04:26 Clicked on Next Button element
+
+2024-05-29 21:04:31 Clicked on Complete Secure Checkout element
+
+2024-05-29 21:04:42 Clicked on use the address element
+
+2024-05-29 21:04:57 Order Number is: H861837
+
+2024-05-29 21:04:57 Sale completed.
+
+2024-05-29 21:05:01 OrderNumber from EMail= Order number: H861837
+
+2024-05-29 21:05:01 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:05:11 -------------------------------------------------------------------------------------------------
+2024-05-29 21:05:12 TC_041 - Complete Monthly sale in wvwachoice with PaymetType as Credit or Debit Card
+
+2024-05-29 21:05:15 Site: wvwachoice
+
+2024-05-29 21:05:15 URL: https://www.reghomeserve.com/sc/mail/wvwachoice
+
+2024-05-29 21:05:32 Clicked on Close cookies element
+
+2024-05-29 21:05:32 Clicked on Add to cart element
+
+2024-05-29 21:05:43 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:05:46 Clicked on Proceed To Checkout element
+
+2024-05-29 21:05:59 Clicked on Proceed To Checkout element
+
+2024-05-29 21:06:09 Clicked on Monthly element
+
+2024-05-29 21:06:09 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:06:21 Enter the zipcode: 22209
+
+2024-05-29 21:06:24 Clicked on Choose Payment Type element
+
+2024-05-29 21:06:30 Clicked on cardtype element
+
+2024-05-29 21:06:30 Clicked on cardExpiryMonth element
+
+2024-05-29 21:06:31 Clicked on cardExpiryYear element
+
+2024-05-29 21:06:31 Clicked on Next Button element
+
+2024-05-29 21:06:36 Clicked on Complete Secure Checkout element
+
+2024-05-29 21:06:46 Clicked on use the address element
+
+2024-05-29 21:07:01 Order Number is: H861839
+
+2024-05-29 21:07:01 Sale completed.
+
+2024-05-29 21:07:05 OrderNumber from EMail= Order number: H861839
+
+2024-05-29 21:07:05 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:07:16 -------------------------------------------------------------------------------------------------
+2024-05-29 21:18:59 TC_001 - Complete Monthly sale in Homeserve with PaymetType as Credit or Debit Card
+
+2024-05-29 21:19:04 Site: Homeserve
+
+2024-05-29 21:19:04 URL: https://www.reghomeserve.com/?ncr=true
+
+2024-05-29 21:19:26 Clicked on Close cookies element
+
+2024-05-29 21:19:26 Clicked on Enter Zip element
+
+2024-05-29 21:19:36 Enter the zipcode: 08512
+
+2024-05-29 21:19:37 Clicked on View Plans element
+
+2024-05-29 21:19:51 Clicked on View available plans element
+
+2024-05-29 21:19:52 Clicked on Add to cart element
+
+2024-05-29 21:20:02 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:20:05 Clicked on Proceed To Checkout element
+
+2024-05-29 21:20:29 Clicked on Checkout element
+
+2024-05-29 21:20:39 Clicked on Bill Frequency element
+
+2024-05-29 21:20:39 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:20:52 Clicked on Continue to Payment Information element
+
+2024-05-29 21:21:07 Clicked on Yes, use this address element
+
+2024-05-29 21:21:20 Clicked on Checking Account element
+
+2024-05-29 21:21:32 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 21:21:46 -------------------------------------------------------------------------------------------------
+2024-05-29 21:21:47 TC_024 - Complete Monthly sale in Ottawa with PaymetType as Credit or Debit Card
+
+2024-05-29 21:21:51 Site: ottawa
+
+2024-05-29 21:21:51 URL: https://preprod.slwofc.ca/mail/ottawa
+
+2024-05-29 21:22:08 Clicked on Close cookies element
+
+2024-05-29 21:22:18 Clicked on Select A Plan element
+
+2024-05-29 21:22:21 Clicked on Add to cart element
+
+2024-05-29 21:22:31 product is added to Cart successfully
+
+2024-05-29 21:22:33 Clicked on Proceed To Checkout element
+
+2024-05-29 21:22:45 Clicked on Proceed To Checkout element
+
+2024-05-29 21:22:55 Clicked on Monthly element
+
+2024-05-29 21:22:55 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:23:07 Enter the zipcode: K7S 0A2
+
+2024-05-29 21:23:08 Clicked on Choose Payment Type element
+
+2024-05-29 21:23:16 Clicked on add card element
+
+2024-05-29 21:23:18 Clicked on completeSecureCheckout element
+
+2024-05-29 21:23:28 Clicked on use the address element
+
+2024-05-29 21:23:48 Order Number is: H861844
+
+2024-05-29 21:23:48 Sale completed.
+
+2024-05-29 21:23:53 OrderNumber from EMail= Order number: H861844
+
+2024-05-29 21:23:53 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:24:04 -------------------------------------------------------------------------------------------------
+2024-05-29 21:24:04 TC_016 - Complete Monthly sale in slwofc with PaymetType using Credit or Debit Card
+
+2024-05-29 21:24:08 Site: slwofc
+
+2024-05-29 21:24:08 URL: https://preprod.slwofc.ca
+
+2024-05-29 21:24:23 Clicked on Close cookies element
+
+2024-05-29 21:24:23 Clicked on Enter Your ZIP Code element
+
+2024-05-29 21:24:24 Enter the zipcode: K7S 0A1
+
+2024-05-29 21:24:24 Clicked on Get a quote element
+
+2024-05-29 21:24:34 Clicked on Add to cart element
+
+2024-05-29 21:24:44 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:24:46 Clicked on Proceed To Checkout element
+
+2024-05-29 21:24:58 Clicked on Proceed To Checkout element
+
+2024-05-29 21:25:08 Clicked on Monthly element
+
+2024-05-29 21:25:08 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:25:20 Clicked on Choose Payment Type element
+
+2024-05-29 21:25:28 Clicked on add card element
+
+2024-05-29 21:25:30 Clicked on completeSecureCheckout element
+
+2024-05-29 21:25:40 Clicked on use the address element
+
+2024-05-29 21:26:00 Order Number is: H861847
+
+2024-05-29 21:26:00 Sale completed.
+
+2024-05-29 21:26:04 OrderNumber from EMail= Order number: H861847
+
+2024-05-29 21:26:04 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:26:15 -------------------------------------------------------------------------------------------------
+2024-05-29 21:26:15 TC_039 - Complete a sale in HomeServe aepindianamichigan-Michigan
+
+2024-05-29 21:26:21 Site: aepindianamichigan
+
+2024-05-29 21:26:21 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-29 21:26:39 Clicked on Close cookies element
+
+2024-05-29 21:26:42 Clicked on OK element
+
+2024-05-29 21:26:52 Clicked on Add to cart element
+
+2024-05-29 21:27:02 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:27:06 Clicked on Proceed To Checkout element
+
+2024-05-29 21:27:18 Clicked on Proceed To Checkout element
+
+2024-05-29 21:27:40 Enter the zipcode: 48201
+
+2024-05-29 21:27:42 Clicked on complete secure checkout element
+
+2024-05-29 21:27:42 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 21:27:53 -------------------------------------------------------------------------------------------------
+2024-05-29 21:27:53 TC_040 - Complete a sale in HomeServe aepindianamichigan-Indiana
+
+2024-05-29 21:27:56 Site: aepindianamichigan
+
+2024-05-29 21:27:56 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-29 21:28:13 Clicked on Close cookies element
+
+2024-05-29 21:28:15 Clicked on OK element
+
+2024-05-29 21:28:26 Clicked on Add to cart element
+
+2024-05-29 21:28:36 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:28:38 Clicked on Proceed To Checkout element
+
+2024-05-29 21:28:50 Clicked on Proceed To Checkout element
+
+2024-05-29 21:29:12 Enter the zipcode: 46001
+
+2024-05-29 21:29:14 Clicked on complete secure checkout element
+
+2024-05-29 21:29:14 ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------
+
+2024-05-29 21:29:25 -------------------------------------------------------------------------------------------------
+2024-05-29 21:29:25 TC_033 - Complete Monthly sale in buffalowaternipcnew with PaymetType as Credit or Debit Card
+
+2024-05-29 21:29:28 Site: buffalowaternipcnew
+
+2024-05-29 21:29:28 URL: https://www.reghomeserve.com/sc/mail/buffalowaternipcnew 
+
+2024-05-29 21:29:45 Clicked on Close cookies element
+
+2024-05-29 21:29:56 Clicked on Add to cart element
+
+2024-05-29 21:30:06 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:30:09 Clicked on Proceed To Checkout element
+
+2024-05-29 21:30:29 Clicked on Monthly element
+
+2024-05-29 21:30:29 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:30:41 Enter the zipcode: 10001
+
+2024-05-29 21:30:47 Clicked on Choose Payment Type element
+
+2024-05-29 21:30:56 Clicked on cardtype element
+
+2024-05-29 21:30:56 Clicked on cardExpiryMonth element
+
+2024-05-29 21:30:57 Clicked on cardExpiryYear element
+
+2024-05-29 21:30:57 Clicked on Next Button element
+
+2024-05-29 21:31:02 Clicked on Complete Secure Checkout element
+
+2024-05-29 21:31:12 Clicked on use the address element
+
+2024-05-29 21:31:59 Order Number is: H861850
+
+2024-05-29 21:31:59 Sale completed.
+
+2024-05-29 21:32:09 -------------------------------------------------------------------------------------------------
+2024-05-29 21:32:09 TC_048 - Complete an sale for firstenergy-fundle
+
+2024-05-29 21:32:13 Site: firstenergy-fundle
+
+2024-05-29 21:32:13 URL: https://www.reghomeserve.com/sc/mail/firstenergy-fundle 
+
+2024-05-29 21:32:52 -------------------------------------------------------------------------------------------------
+2024-05-29 21:32:53 TC_007 - Complete Monthly sale in HomeServe-CE with PaymetType as Checking Account
+
+2024-05-29 21:32:56 Site: HomeServe-CE
+
+2024-05-29 21:32:56 URL: https://www.reghomeserve.com/sc/mail/homeserve-ce
+
+2024-05-29 21:33:36 -------------------------------------------------------------------------------------------------
+2024-05-29 21:33:36 TC_027 - Complete a Monthly sale in HomeServe-lasanitation with PaymentType as Credit or Debit Card
+
+2024-05-29 21:33:39 Site: lasanitation
+
+2024-05-29 21:33:39 URL: https://preprod.slwofa.com/mail/lasanitation 
+
+2024-05-29 21:33:55 Clicked on Close cookies element
+
+2024-05-29 21:33:55 Clicked on Add to cart element
+
+2024-05-29 21:34:05 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:34:08 Clicked on Proceed To Checkout element
+
+2024-05-29 21:34:39 Enter the zipcode: 90001
+
+2024-05-29 21:34:41 Clicked on Monthly element
+
+2024-05-29 21:34:41 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:34:43 Clicked on Choose Payment Type element
+
+2024-05-29 21:34:49 Clicked on cardtype element
+
+2024-05-29 21:34:49 Clicked on cardExpiryMonth element
+
+2024-05-29 21:34:49 Clicked on cardExpiryYear element
+
+2024-05-29 21:34:50 Clicked on Next Button element
+
+2024-05-29 21:34:55 Clicked on Complete Secure Checkout element
+
+2024-05-29 21:35:05 Clicked on use the address element
+
+2024-05-29 21:35:25 Order Number is: H861852
+
+2024-05-29 21:35:25 Sale completed.
+
+2024-05-29 21:35:29 OrderNumber from EMail= Order number: H861852
+
+2024-05-29 21:35:29 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:35:40 -------------------------------------------------------------------------------------------------
+2024-05-29 21:35:41 TC_041 - Complete Monthly sale in wvwachoice with PaymetType as Credit or Debit Card
+
+2024-05-29 21:35:44 Site: wvwachoice
+
+2024-05-29 21:35:44 URL: https://www.reghomeserve.com/sc/mail/wvwachoice
+
+2024-05-29 21:36:05 Clicked on Close cookies element
+
+2024-05-29 21:36:05 Clicked on Add to cart element
+
+2024-05-29 21:36:15 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:36:17 Clicked on Proceed To Checkout element
+
+2024-05-29 21:36:31 Clicked on Proceed To Checkout element
+
+2024-05-29 21:36:41 Clicked on Monthly element
+
+2024-05-29 21:36:41 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:36:53 Enter the zipcode: 22209
+
+2024-05-29 21:36:56 Clicked on Choose Payment Type element
+
+2024-05-29 21:37:02 Clicked on cardtype element
+
+2024-05-29 21:37:02 Clicked on cardExpiryMonth element
+
+2024-05-29 21:37:03 Clicked on cardExpiryYear element
+
+2024-05-29 21:37:03 Clicked on Next Button element
+
+2024-05-29 21:37:08 Clicked on Complete Secure Checkout element
+
+2024-05-29 21:37:18 Clicked on use the address element
+
+2024-05-29 21:37:38 Order Number is: H861854
+
+2024-05-29 21:37:38 Sale completed.
+
+2024-05-29 21:37:42 OrderNumber from EMail= Order number: H861854
+
+2024-05-29 21:37:42 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:37:53 -------------------------------------------------------------------------------------------------
+2024-05-29 21:42:46 TC_001 - Complete Monthly sale in Homeserve with PaymetType as Credit or Debit Card
+
+2024-05-29 21:42:52 Site: Homeserve
+
+2024-05-29 21:42:52 URL: https://www.reghomeserve.com/?ncr=true
+
+2024-05-29 21:43:16 Clicked on Close cookies element
+
+2024-05-29 21:43:16 Clicked on Enter Zip element
+
+2024-05-29 21:43:26 Enter the zipcode: 08512
+
+2024-05-29 21:43:27 Clicked on View Plans element
+
+2024-05-29 21:43:43 Clicked on View available plans element
+
+2024-05-29 21:43:43 Clicked on Add to cart element
+
+2024-05-29 21:43:53 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:43:59 Clicked on Proceed To Checkout element
+
+2024-05-29 21:44:21 Clicked on Checkout element
+
+2024-05-29 21:44:31 Clicked on Bill Frequency element
+
+2024-05-29 21:44:31 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:44:45 Clicked on Continue to Payment Information element
+
+2024-05-29 21:45:00 Clicked on Yes, use this address element
+
+2024-05-29 21:45:12 Clicked on Checking Account element
+
+2024-05-29 21:45:36 Clicked on Hear About Us Option element
+
+2024-05-29 21:45:38 Clicked on Finish element
+
+2024-05-29 21:45:40 Clicked on Close element
+
+2024-05-29 21:45:42 Order Number is : H861856
+
+2024-05-29 21:45:42 Sale completed.
+
+2024-05-29 21:45:47 OrderNumber from EMail= Order number: H861856
+
+2024-05-29 21:45:47 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:45:58 -------------------------------------------------------------------------------------------------
+2024-05-29 21:45:59 TC_024 - Complete Monthly sale in Ottawa with PaymetType as Credit or Debit Card
+
+2024-05-29 21:46:02 Site: ottawa
+
+2024-05-29 21:46:02 URL: https://preprod.slwofc.ca/mail/ottawa
+
+2024-05-29 21:46:18 Clicked on Close cookies element
+
+2024-05-29 21:46:28 Clicked on Select A Plan element
+
+2024-05-29 21:46:30 Clicked on Add to cart element
+
+2024-05-29 21:46:40 product is added to Cart successfully
+
+2024-05-29 21:46:42 Clicked on Proceed To Checkout element
+
+2024-05-29 21:46:55 Clicked on Proceed To Checkout element
+
+2024-05-29 21:47:05 Clicked on Monthly element
+
+2024-05-29 21:47:05 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:47:16 Enter the zipcode: K7S 0A2
+
+2024-05-29 21:47:17 Clicked on Choose Payment Type element
+
+2024-05-29 21:47:25 Clicked on add card element
+
+2024-05-29 21:47:27 Clicked on completeSecureCheckout element
+
+2024-05-29 21:47:37 Clicked on use the address element
+
+2024-05-29 21:47:57 Order Number is: H861859
+
+2024-05-29 21:47:57 Sale completed.
+
+2024-05-29 21:48:01 OrderNumber from EMail= Order number: H861859
+
+2024-05-29 21:48:01 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:48:12 -------------------------------------------------------------------------------------------------
+2024-05-29 21:48:13 TC_016 - Complete Monthly sale in slwofc with PaymetType using Credit or Debit Card
+
+2024-05-29 21:48:16 Site: slwofc
+
+2024-05-29 21:48:16 URL: https://preprod.slwofc.ca
+
+2024-05-29 21:48:33 Clicked on Close cookies element
+
+2024-05-29 21:48:34 Clicked on Enter Your ZIP Code element
+
+2024-05-29 21:48:34 Enter the zipcode: K7S 0A1
+
+2024-05-29 21:48:34 Clicked on Get a quote element
+
+2024-05-29 21:48:44 Clicked on Add to cart element
+
+2024-05-29 21:48:54 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:48:59 Clicked on Proceed To Checkout element
+
+2024-05-29 21:49:12 Clicked on Proceed To Checkout element
+
+2024-05-29 21:49:22 Clicked on Monthly element
+
+2024-05-29 21:49:22 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:49:34 Clicked on Choose Payment Type element
+
+2024-05-29 21:50:12 No WebObject card Number Found in UI, waited for :: 10 seconds
+2024-05-29 21:50:23 -------------------------------------------------------------------------------------------------
+2024-05-29 21:50:23 TC_039 - Complete a sale in HomeServe aepindianamichigan-Michigan
+
+2024-05-29 21:50:26 Site: aepindianamichigan
+
+2024-05-29 21:50:26 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-29 21:50:46 Clicked on Close cookies element
+
+2024-05-29 21:50:48 Clicked on OK element
+
+2024-05-29 21:50:58 Clicked on Add to cart element
+
+2024-05-29 21:51:09 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:51:11 Clicked on Proceed To Checkout element
+
+2024-05-29 21:51:26 Clicked on Proceed To Checkout element
+
+2024-05-29 21:51:48 Enter the zipcode: 48201
+
+2024-05-29 21:51:50 Clicked on complete secure checkout element
+
+2024-05-29 21:52:00 Clicked on use the address element
+
+2024-05-29 21:52:21 Order Number is: H861861
+
+2024-05-29 21:52:21 Sale completed.
+
+2024-05-29 21:52:25 OrderNumber from EMail= Order number: H861861
+
+2024-05-29 21:52:25 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:52:36 -------------------------------------------------------------------------------------------------
+2024-05-29 21:52:36 TC_040 - Complete a sale in HomeServe aepindianamichigan-Indiana
+
+2024-05-29 21:52:39 Site: aepindianamichigan
+
+2024-05-29 21:52:39 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-29 21:53:03 Clicked on Close cookies element
+
+2024-05-29 21:53:05 Clicked on OK element
+
+2024-05-29 21:53:15 Clicked on Add to cart element
+
+2024-05-29 21:53:25 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:53:28 Clicked on Proceed To Checkout element
+
+2024-05-29 21:53:40 Clicked on Proceed To Checkout element
+
+2024-05-29 21:54:02 Enter the zipcode: 46001
+
+2024-05-29 21:54:05 Clicked on complete secure checkout element
+
+2024-05-29 21:54:15 Clicked on use the address element
+
+2024-05-29 21:54:35 Order Number is: H861863
+
+2024-05-29 21:54:35 Sale completed.
+
+2024-05-29 21:54:40 OrderNumber from EMail= Order number: H861863
+
+2024-05-29 21:54:40 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:54:50 -------------------------------------------------------------------------------------------------
+2024-05-29 21:54:51 TC_033 - Complete Monthly sale in buffalowaternipcnew with PaymetType as Credit or Debit Card
+
+2024-05-29 21:54:54 Site: buffalowaternipcnew
+
+2024-05-29 21:54:54 URL: https://www.reghomeserve.com/sc/mail/buffalowaternipcnew 
+
+2024-05-29 21:55:12 Clicked on Close cookies element
+
+2024-05-29 21:55:23 Clicked on Add to cart element
+
+2024-05-29 21:55:33 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:55:36 Clicked on Proceed To Checkout element
+
+2024-05-29 21:55:56 Clicked on Monthly element
+
+2024-05-29 21:55:56 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 21:56:08 Enter the zipcode: 10001
+
+2024-05-29 21:56:12 Clicked on Choose Payment Type element
+
+2024-05-29 21:56:18 Clicked on cardtype element
+
+2024-05-29 21:56:18 Clicked on cardExpiryMonth element
+
+2024-05-29 21:56:18 Clicked on cardExpiryYear element
+
+2024-05-29 21:56:18 Clicked on Next Button element
+
+2024-05-29 21:56:23 Clicked on Complete Secure Checkout element
+
+2024-05-29 21:56:34 Clicked on use the address element
+
+2024-05-29 21:56:54 Order Number is: H861865
+
+2024-05-29 21:56:54 Sale completed.
+
+2024-05-29 21:56:58 OrderNumber from EMail= Order number: H861865
+
+2024-05-29 21:56:58 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 21:57:09 -------------------------------------------------------------------------------------------------
+2024-05-29 21:57:09 TC_048 - Complete an sale for firstenergy-fundle
+
+2024-05-29 21:57:12 Site: firstenergy-fundle
+
+2024-05-29 21:57:12 URL: https://www.reghomeserve.com/sc/mail/firstenergy-fundle 
+
+2024-05-29 21:57:32 Clicked on Close cookies element
+
+2024-05-29 21:57:32 Clicked on Add to cart element
+
+2024-05-29 21:57:43 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 21:57:47 Clicked on Proceed To Checkout element
+
+2024-05-29 21:58:18 Enter the zipcode: 15072
+
+2024-05-29 21:58:21 Clicked on complete secure checkout element
+
+2024-05-29 21:58:31 Clicked on use the address element
+
+2024-05-29 21:59:23 No WebObject orderConfirmationTitle Found in UI, waited for :: 30 seconds
+2024-05-29 21:59:23 ERROR : ------Payment Not Processed:--------
+
+2024-05-29 21:59:33 -------------------------------------------------------------------------------------------------
+2024-05-29 21:59:34 TC_007 - Complete Monthly sale in HomeServe-CE with PaymetType as Checking Account
+
+2024-05-29 21:59:37 Site: HomeServe-CE
+
+2024-05-29 21:59:37 URL: https://www.reghomeserve.com/sc/mail/homeserve-ce
+
+2024-05-29 22:00:05 Clicked on Close cookies element
+
+2024-05-29 22:00:05 Clicked on Add to cart element
+
+2024-05-29 22:00:16 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 22:00:19 Clicked on Proceed To Checkout element
+
+2024-05-29 22:00:39 Clicked on Monthly element
+
+2024-05-29 22:00:39 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 22:00:51 Enter the zipcode: 10013
+
+2024-05-29 22:00:54 Clicked on Checking Account element
+
+2024-05-29 22:00:55 Clicked on completeSecureCheckout element
+
+2024-05-29 22:01:05 Clicked on use the address element
+
+2024-05-29 22:01:26 Order Number is: H861870
+
+2024-05-29 22:01:26 Sale completed.
+
+2024-05-29 22:01:29 OrderNumber from EMail= Order number: H861870
+
+2024-05-29 22:01:29 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 22:01:40 -------------------------------------------------------------------------------------------------
+2024-05-29 22:01:41 TC_027 - Complete a Monthly sale in HomeServe-lasanitation with PaymentType as Credit or Debit Card
+
+2024-05-29 22:01:44 Site: lasanitation
+
+2024-05-29 22:01:44 URL: https://preprod.slwofa.com/mail/lasanitation 
+
+2024-05-29 22:02:01 Clicked on Close cookies element
+
+2024-05-29 22:02:01 Clicked on Add to cart element
+
+2024-05-29 22:02:11 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 22:02:14 Clicked on Proceed To Checkout element
+
+2024-05-29 22:02:45 Enter the zipcode: 90001
+
+2024-05-29 22:02:47 Clicked on Monthly element
+
+2024-05-29 22:02:47 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 22:02:49 Clicked on Choose Payment Type element
+
+2024-05-29 22:02:55 Clicked on cardtype element
+
+2024-05-29 22:02:55 Clicked on cardExpiryMonth element
+
+2024-05-29 22:02:56 Clicked on cardExpiryYear element
+
+2024-05-29 22:02:56 Clicked on Next Button element
+
+2024-05-29 22:03:01 Clicked on Complete Secure Checkout element
+
+2024-05-29 22:03:11 Clicked on use the address element
+
+2024-05-29 22:03:31 Order Number is: H861872
+
+2024-05-29 22:03:31 Sale completed.
+
+2024-05-29 22:03:35 OrderNumber from EMail= Order number: H861872
+
+2024-05-29 22:03:35 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 22:03:46 -------------------------------------------------------------------------------------------------
+2024-05-29 22:03:46 TC_041 - Complete Monthly sale in wvwachoice with PaymetType as Credit or Debit Card
+
+2024-05-29 22:03:49 Site: wvwachoice
+
+2024-05-29 22:03:49 URL: https://www.reghomeserve.com/sc/mail/wvwachoice
+
+2024-05-29 22:04:09 Clicked on Close cookies element
+
+2024-05-29 22:04:09 Clicked on Add to cart element
+
+2024-05-29 22:04:19 Add To Cartproduct is added to Cart successfully
+
+2024-05-29 22:04:22 Clicked on Proceed To Checkout element
+
+2024-05-29 22:04:40 Clicked on Proceed To Checkout element
+
+2024-05-29 22:04:50 Clicked on Monthly element
+
+2024-05-29 22:04:50 Billing Frequency is selected as 'Monthly'
+
+2024-05-29 22:05:01 Enter the zipcode: 22209
+
+2024-05-29 22:05:04 Clicked on Choose Payment Type element
+
+2024-05-29 22:05:10 Clicked on cardtype element
+
+2024-05-29 22:05:10 Clicked on cardExpiryMonth element
+
+2024-05-29 22:05:11 Clicked on cardExpiryYear element
+
+2024-05-29 22:05:11 Clicked on Next Button element
+
+2024-05-29 22:05:16 Clicked on Complete Secure Checkout element
+
+2024-05-29 22:05:26 Clicked on use the address element
+
+2024-05-29 22:05:46 Order Number is: H861874
+
+2024-05-29 22:05:46 Sale completed.
+
+2024-05-29 22:05:50 OrderNumber from EMail= Order number: H861874
+
+2024-05-29 22:05:50 Order ID's Matched in Both UI and EMAIL
+
+2024-05-29 22:06:01 -------------------------------------------------------------------------------------------------
+2024-05-30 11:08:53 TC_001 - Complete Monthly sale in Homeserve with PaymetType as Credit or Debit Card
+
+2024-05-30 11:09:00 Site: Homeserve
+
+2024-05-30 11:09:00 URL: https://www.reghomeserve.com/?ncr=true
+
+2024-05-30 11:09:46 Clicked on Close cookies element
+
+2024-05-30 11:09:46 Clicked on Enter Zip element
+
+2024-05-30 11:09:57 Enter the zipcode: 08512
+
+2024-05-30 11:09:57 Clicked on View Plans element
+
+2024-05-30 11:10:16 Clicked on View available plans element
+
+2024-05-30 11:10:17 Clicked on Add to cart element
+
+2024-05-30 11:10:27 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:10:31 Clicked on Proceed To Checkout element
+
+2024-05-30 11:10:58 Clicked on Checkout element
+
+2024-05-30 11:11:08 Clicked on Bill Frequency element
+
+2024-05-30 11:11:08 Billing Frequency is selected as 'Monthly'
+
+2024-05-30 11:11:21 Clicked on Continue to Payment Information element
+
+2024-05-30 11:11:37 Clicked on Yes, use this address element
+
+2024-05-30 11:11:49 Clicked on Checking Account element
+
+2024-05-30 11:12:16 Clicked on Hear About Us Option element
+
+2024-05-30 11:12:18 Clicked on Finish element
+
+2024-05-30 11:12:20 Clicked on Close element
+
+2024-05-30 11:12:23 Order Number is : H861946
+
+2024-05-30 11:12:23 Sale completed.
+
+2024-05-30 11:12:27 OrderNumber from EMail= Order number: H861946
+
+2024-05-30 11:12:27 Order ID's Matched in Both UI and EMAIL
+
+2024-05-30 11:12:38 -------------------------------------------------------------------------------------------------
+2024-05-30 11:12:39 TC_024 - Complete Monthly sale in Ottawa with PaymetType as Credit or Debit Card
+
+2024-05-30 11:12:42 Site: ottawa
+
+2024-05-30 11:12:42 URL: https://preprod.slwofc.ca/mail/ottawa
+
+2024-05-30 11:13:08 Clicked on Close cookies element
+
+2024-05-30 11:13:19 Clicked on Select A Plan element
+
+2024-05-30 11:13:21 Clicked on Add to cart element
+
+2024-05-30 11:13:31 product is added to Cart successfully
+
+2024-05-30 11:13:36 Clicked on Proceed To Checkout element
+
+2024-05-30 11:13:54 Clicked on Proceed To Checkout element
+
+2024-05-30 11:14:04 Clicked on Monthly element
+
+2024-05-30 11:14:04 Billing Frequency is selected as 'Monthly'
+
+2024-05-30 11:14:15 Enter the zipcode: K7S 0A2
+
+2024-05-30 11:14:16 Clicked on Choose Payment Type element
+
+2024-05-30 11:15:06 No WebObject card Number Found in UI, waited for :: 10 seconds
+2024-05-30 11:15:17 -------------------------------------------------------------------------------------------------
+2024-05-30 11:15:18 TC_018 - Complete Monthly sale in sanjose with PaymetType as Credit or Debit Card
+
+2024-05-30 11:15:21 Site: sanjose
+
+2024-05-30 11:15:21 URL: https://www.reghomeserve.com/sc/mail/sanjose 
+
+2024-05-30 11:15:50 Clicked on Close cookies element
+
+2024-05-30 11:16:00 Clicked on Add to cart element
+
+2024-05-30 11:16:10 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:16:16 Clicked on Proceed To Checkout element
+
+2024-05-30 11:16:29 Clicked on Proceed To Checkout element
+
+2024-05-30 11:16:51 Enter the zipcode: 94088
+
+2024-05-30 11:16:53 Clicked on Monthly element
+
+2024-05-30 11:16:53 Billing Frequency is selected as 'Monthly'
+
+2024-05-30 11:16:54 Clicked on Choose Payment Type element
+
+2024-05-30 11:17:00 Clicked on cardtype element
+
+2024-05-30 11:17:01 Clicked on cardExpiryMonth element
+
+2024-05-30 11:17:01 Clicked on cardExpiryYear element
+
+2024-05-30 11:17:01 Clicked on Next Button element
+
+2024-05-30 11:17:07 Clicked on Complete Secure Checkout element
+
+2024-05-30 11:17:18 Clicked on use the address element
+
+2024-05-30 11:17:39 Order Number is: H861949
+
+2024-05-30 11:17:39 Sale completed.
+
+2024-05-30 11:17:45 OrderNumber from EMail= Order number: H861949
+
+2024-05-30 11:17:45 Order ID's Matched in Both UI and EMAIL
+
+2024-05-30 11:17:57 -------------------------------------------------------------------------------------------------
+2024-05-30 11:17:58 TC_016 - Complete Monthly sale in slwofc with PaymetType using Credit or Debit Card
+
+2024-05-30 11:18:02 Site: slwofc
+
+2024-05-30 11:18:02 URL: https://preprod.slwofc.ca
+
+2024-05-30 11:18:25 Clicked on Close cookies element
+
+2024-05-30 11:18:26 Clicked on Enter Your ZIP Code element
+
+2024-05-30 11:18:26 Enter the zipcode: K7S 0A1
+
+2024-05-30 11:18:26 Clicked on Get a quote element
+
+2024-05-30 11:18:37 Clicked on Add to cart element
+
+2024-05-30 11:18:47 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:18:50 Clicked on Proceed To Checkout element
+
+2024-05-30 11:19:08 Clicked on Proceed To Checkout element
+
+2024-05-30 11:19:18 Clicked on Monthly element
+
+2024-05-30 11:19:18 Billing Frequency is selected as 'Monthly'
+
+2024-05-30 11:19:34 Clicked on Choose Payment Type element
+
+2024-05-30 11:20:17 No WebObject card Number Found in UI, waited for :: 10 seconds
+2024-05-30 11:20:31 -------------------------------------------------------------------------------------------------
+2024-05-30 11:20:37 TC_039 - Complete a sale in HomeServe aepindianamichigan-Michigan
+
+2024-05-30 11:20:54 Site: aepindianamichigan
+
+2024-05-30 11:20:54 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-30 11:21:18 Clicked on Close cookies element
+
+2024-05-30 11:21:21 Clicked on OK element
+
+2024-05-30 11:21:31 Clicked on Add to cart element
+
+2024-05-30 11:21:41 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:21:44 Clicked on Proceed To Checkout element
+
+2024-05-30 11:21:57 Clicked on Proceed To Checkout element
+
+2024-05-30 11:22:20 Enter the zipcode: 48201
+
+2024-05-30 11:22:22 Clicked on complete secure checkout element
+
+2024-05-30 11:22:34 Clicked on use the address element
+
+2024-05-30 11:22:54 Order Number is: H861951
+
+2024-05-30 11:22:54 Sale completed.
+
+2024-05-30 11:22:58 OrderNumber from EMail= Order number: H861951
+
+2024-05-30 11:22:58 Order ID's Matched in Both UI and EMAIL
+
+2024-05-30 11:23:11 -------------------------------------------------------------------------------------------------
+2024-05-30 11:23:16 TC_040 - Complete a sale in HomeServe aepindianamichigan-Indiana
+
+2024-05-30 11:23:20 Site: aepindianamichigan
+
+2024-05-30 11:23:20 URL: https://www.reghomeserve.com/sc/mail/aepindianamichigan 
+
+2024-05-30 11:23:50 Clicked on Close cookies element
+
+2024-05-30 11:23:52 Clicked on OK element
+
+2024-05-30 11:24:03 Clicked on Add to cart element
+
+2024-05-30 11:24:13 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:24:15 Clicked on Proceed To Checkout element
+
+2024-05-30 11:24:27 Clicked on Proceed To Checkout element
+
+2024-05-30 11:24:49 Enter the zipcode: 46001
+
+2024-05-30 11:24:53 Clicked on complete secure checkout element
+
+2024-05-30 11:25:04 Clicked on use the address element
+
+2024-05-30 11:25:31 Order Number is: H861953
+
+2024-05-30 11:25:31 Sale completed.
+
+2024-05-30 11:25:35 OrderNumber from EMail= Order number: H861953
+
+2024-05-30 11:25:35 Order ID's Matched in Both UI and EMAIL
+
+2024-05-30 11:25:48 -------------------------------------------------------------------------------------------------
+2024-05-30 11:25:49 TC_033 - Complete Monthly sale in buffalowaternipcnew with PaymetType as Credit or Debit Card
+
+2024-05-30 11:25:53 Site: buffalowaternipcnew
+
+2024-05-30 11:25:53 URL: https://www.reghomeserve.com/sc/mail/buffalowaternipcnew 
+
+2024-05-30 11:26:22 Clicked on Close cookies element
+
+2024-05-30 11:26:33 Clicked on Add to cart element
+
+2024-05-30 11:26:43 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:26:48 Clicked on Proceed To Checkout element
+
+2024-05-30 11:27:10 Clicked on Monthly element
+
+2024-05-30 11:27:10 Billing Frequency is selected as 'Monthly'
+
+2024-05-30 11:27:43 Enter the zipcode: 10001
+
+2024-05-30 11:27:54 Clicked on Choose Payment Type element
+
+2024-05-30 11:28:05 Clicked on cardtype element
+
+2024-05-30 11:28:11 Clicked on cardExpiryMonth element
+
+2024-05-30 11:28:14 Clicked on cardExpiryYear element
+
+2024-05-30 11:28:17 Clicked on Next Button element
+
+2024-05-30 11:28:25 Clicked on Complete Secure Checkout element
+
+2024-05-30 11:28:39 Clicked on use the address element
+
+2024-05-30 11:29:17 Order Number is: H861955
+
+2024-05-30 11:29:17 Sale completed.
+
+2024-05-30 11:29:23 OrderNumber from EMail= Order number: H861955
+
+2024-05-30 11:29:23 Order ID's Matched in Both UI and EMAIL
+
+2024-05-30 11:29:36 -------------------------------------------------------------------------------------------------
+2024-05-30 11:29:42 TC_SANITY_001 - Complete Monthly sale in Homeserve with PaymetType as Credit or Debit Card
+
+2024-05-30 11:29:56 Site: Homeserve
+
+2024-05-30 11:29:56 URL: https://www.reghomeserve.com/?ncr=true
+
+2024-05-30 11:30:18 Clicked on Close cookies element
+
+2024-05-30 11:30:30 -------------------------------------------------------------------------------------------------
+2024-05-30 11:30:31 TC_048 - Complete an sale for firstenergy-fundle
+
+2024-05-30 11:30:34 Site: firstenergy-fundle
+
+2024-05-30 11:30:34 URL: https://www.reghomeserve.com/sc/mail/firstenergy-fundle 
+
+2024-05-30 11:31:01 Clicked on Close cookies element
+
+2024-05-30 11:31:01 Clicked on Add to cart element
+
+2024-05-30 11:31:11 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:31:17 Clicked on Proceed To Checkout element
+
+2024-05-30 11:31:51 Enter the zipcode: 15072
+
+2024-05-30 11:31:54 Clicked on complete secure checkout element
+
+2024-05-30 11:32:04 Clicked on use the address element
+
+2024-05-30 11:32:57 No WebObject orderConfirmationTitle Found in UI, waited for :: 30 seconds
+2024-05-30 11:32:57 ERROR : ------Payment Not Processed:--------
+
+2024-05-30 11:33:09 -------------------------------------------------------------------------------------------------
+2024-05-30 11:33:09 TC_007 - Complete Monthly sale in HomeServe-CE with PaymetType as Checking Account
+
+2024-05-30 11:33:13 Site: HomeServe-CE
+
+2024-05-30 11:33:13 URL: https://www.reghomeserve.com/sc/mail/homeserve-ce
+
+2024-05-30 11:33:41 Clicked on Close cookies element
+
+2024-05-30 11:33:41 Clicked on Add to cart element
+
+2024-05-30 11:33:51 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:33:54 Clicked on Proceed To Checkout element
+
+2024-05-30 11:34:15 Clicked on Monthly element
+
+2024-05-30 11:34:15 Billing Frequency is selected as 'Monthly'
+
+2024-05-30 11:34:27 Enter the zipcode: 10013
+
+2024-05-30 11:34:30 Clicked on Checking Account element
+
+2024-05-30 11:34:31 Clicked on completeSecureCheckout element
+
+2024-05-30 11:34:41 Clicked on use the address element
+
+2024-05-30 11:35:01 Order Number is: H861960
+
+2024-05-30 11:35:01 Sale completed.
+
+2024-05-30 11:35:05 OrderNumber from EMail= Order number: H861960
+
+2024-05-30 11:35:05 Order ID's Matched in Both UI and EMAIL
+
+2024-05-30 11:35:17 -------------------------------------------------------------------------------------------------
+2024-05-30 11:35:17 TC_027 - Complete a Monthly sale in HomeServe-lasanitation with PaymentType as Credit or Debit Card
+
+2024-05-30 11:35:21 Site: lasanitation
+
+2024-05-30 11:35:21 URL: https://preprod.slwofa.com/mail/lasanitation 
+
+2024-05-30 11:35:42 Clicked on Close cookies element
+
+2024-05-30 11:35:42 Clicked on Add to cart element
+
+2024-05-30 11:35:52 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:35:55 Clicked on Proceed To Checkout element
+
+2024-05-30 11:36:27 Enter the zipcode: 90001
+
+2024-05-30 11:36:29 Clicked on Monthly element
+
+2024-05-30 11:36:29 Billing Frequency is selected as 'Monthly'
+
+2024-05-30 11:36:30 Clicked on Choose Payment Type element
+
+2024-05-30 11:36:39 Clicked on cardtype element
+
+2024-05-30 11:36:40 Clicked on cardExpiryMonth element
+
+2024-05-30 11:36:40 Clicked on cardExpiryYear element
+
+2024-05-30 11:36:41 Clicked on Next Button element
+
+2024-05-30 11:36:46 Clicked on Complete Secure Checkout element
+
+2024-05-30 11:36:56 Clicked on use the address element
+
+2024-05-30 11:37:16 Order Number is: H861962
+
+2024-05-30 11:37:16 Sale completed.
+
+2024-05-30 11:37:20 OrderNumber from EMail= Order number: H861962
+
+2024-05-30 11:37:20 Order ID's Matched in Both UI and EMAIL
+
+2024-05-30 11:37:31 -------------------------------------------------------------------------------------------------
+2024-05-30 11:37:32 TC_041 - Complete Monthly sale in wvwachoice with PaymetType as Credit or Debit Card
+
+2024-05-30 11:37:35 Site: wvwachoice
+
+2024-05-30 11:37:35 URL: https://www.reghomeserve.com/sc/mail/wvwachoice
+
+2024-05-30 11:38:07 Clicked on Close cookies element
+
+2024-05-30 11:38:07 Clicked on Add to cart element
+
+2024-05-30 11:38:17 Add To Cartproduct is added to Cart successfully
+
+2024-05-30 11:38:23 Clicked on Proceed To Checkout element
+
+2024-05-30 11:38:35 Clicked on Proceed To Checkout element
+
+2024-05-30 11:38:45 Clicked on Monthly element
+
+2024-05-30 11:38:45 Billing Frequency is selected as 'Monthly'
+
+2024-05-30 11:38:57 Enter the zipcode: 22209
+
+2024-05-30 11:39:02 Clicked on Choose Payment Type element
+
+2024-05-30 11:39:08 Clicked on cardtype element
+
+2024-05-30 11:39:08 Clicked on cardExpiryMonth element
+
+2024-05-30 11:39:08 Clicked on cardExpiryYear element
+
+2024-05-30 11:39:09 Clicked on Next Button element
+
+2024-05-30 11:39:14 Clicked on Complete Secure Checkout element
+
+2024-05-30 11:39:24 Clicked on use the address element
+
+2024-05-30 11:39:44 Order Number is: H861964
+
+2024-05-30 11:39:44 Sale completed.
+
+2024-05-30 11:39:48 OrderNumber from EMail= Order number: H861964
+
+2024-05-30 11:39:48 Order ID's Matched in Both UI and EMAIL
+
+2024-05-30 11:39:59 -------------------------------------------------------------------------------------------------
