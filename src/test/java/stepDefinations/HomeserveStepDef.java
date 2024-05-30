@@ -98,4 +98,9 @@ public class HomeserveStepDef {
 	public void the_user_selects_the_plan_add_to_cart_and_Proceed_To_Checkout()	throws Exception {
 		commonPageActions.selectThePlanAndAddToCartAndProceedToCheckout();
 	}
+	
+	@When("user validate all the links in a page")
+	public void user_validate_all_the_links_in_a_page()	throws Exception {
+		commonFunctions.validateBrokenLinks();
+	}
 }

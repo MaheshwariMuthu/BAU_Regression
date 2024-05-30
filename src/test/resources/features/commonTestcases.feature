@@ -2,8 +2,25 @@
 
 Feature: Homeserve feature file
 
-  @TC_SANITY_001 @sanity @homeserve @sale
-  Scenario: Complete Monthly sale in Homeserve with PaymetType as Credit or Debit Card
-  	Given User is on "Homeserve" Home page
-    When user enters a valid zipcode and clicks on View Plans
-    Then add product to the cart and the user clicks on Proceed to Checkout
+	@TC_SANITY_001 @homeserve @sale
+  Scenario: Validate all the links in homepage to check for broken links.
+  	Given User is on "HomeserveHome" Home page
+    When user validate all the links in a page
+    Given User is on "slwofa" Home page
+    When user validate all the links in a page
+    Given User is on "slwofc" Home page
+    When user validate all the links in a page
+    Given User is on "ottawa" Home page
+    When user validate all the links in a page
+    Given User is on "buffalowaternipcnew" Home page
+    When user validate all the links in a page
+    Given User is on "lasanitation" Home page
+    When user validate all the links in a page
+    Given User is on "wvwachoice" Home page
+    When user validate all the links in a page
+    Given User is on "firstenergy-fundle" Home page
+    When user validate all the links in a page
+    Given User is on "kypower-tabs" Home page
+    When user validate all the links in a page
+    Given User is on "sanjose" Home page
+    When user validate all the links in a page

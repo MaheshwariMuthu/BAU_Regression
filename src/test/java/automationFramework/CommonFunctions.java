@@ -5,24 +5,33 @@ import static automationFramework.PageActions.clickElement;
 import static automationFramework.PageActions.scrollToElement;
 import static automationFramework.PageActions.switchWindow;
 import static automationFramework.Waits.waitTillPageLoad;
+import static automationFramework.StartDriver.driver;
+import static automationFramework.PageActions.log;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class CommonFunctions {
 	
+	public static Logger log = Logger.getLogger(PageActions.class);
 	
 	public static void takeFullPageScreenShot(WebDriver driver) throws IOException {
 
@@ -96,7 +105,46 @@ public class CommonFunctions {
 			clickElement(getWebElementByText("See plan details in English."),"Change Language",false);
 			waitTillPageLoad();
 			switchWindow();
+		}
+		
+	/*------------------------------------------------------------------------------------------------------
+	* Author		: Maheswari
+	* Date			: 30-05-2023
+	* Method Name	: validateBrokenLinks
+	* Description	: To validate the broken links
+	---------------------------------------------------------------------------------------------------------*/			
+		public void validateBrokenLinks() {
+			// Finding all the available links on webpage
+			List<WebElement> links = driver.findElements(By.tagName("a"));
 
+			// Iterating each link and checking the response status
+			for (WebElement link : links) {
+			String url = link.getAttribute("href");
+			String linkText = link.getAttribute("title");
+			verifyLink(linkText, url);
+			}
+		}
+		
+	/*------------------------------------------------------------------------------------------------------
+	* Author		: Maheswari
+	* Date			: 30-05-2023
+	* Method Name	: verifyLink
+	* Description	: To validate the broken links
+	---------------------------------------------------------------------------------------------------------*/					
+		public static void verifyLink(String title, String url) {
+			try {
+				URL link = new URL(url);
+				HttpURLConnection httpURLConnection = (HttpURLConnection) link.openConnection();
+				httpURLConnection.setConnectTimeout(3000); // Set connection timeout to 3 seconds
+				httpURLConnection.connect();
+
+				if (httpURLConnection.getResponseCode() == 200)
+					log.info(title + ":" + url + " - " + httpURLConnection.getResponseMessage() + "\n");
+				else
+					log.info(title + ":" + url + " - " + httpURLConnection.getResponseMessage() + " - " + "is a broken link\n");
+			} catch (Exception e) {
+				log.info(title + ":" + url + " - " + "is a broken link\n");
+			}
 		}
 	
 	/*------------------------------------------------------------------------------------------------------
