@@ -122,6 +122,11 @@ public class CommonPageActions {
 	                	if (verifyWebElementVisibleWebElementBoolean(commonPageLocators.view_Plan))
 	                		clickElement(commonPageLocators.view_Plan, "View Plans", false);
 	                	break;
+	                case "kandela":
+	                	clickElement(commonPageLocators.buttonViewPlans, "View Plans", false);
+	                	waitTillPageLoad();
+	                	clickElement(commonPageLocators.viewAvailablePlans, "View available plans", false);
+	                	break;
                 }
                 waitTillPageLoad();
                 break;
@@ -254,14 +259,17 @@ public class CommonPageActions {
         		if (configProperties.getProperty("server.site").equalsIgnoreCase("kypower-tabs")){
         			clickElement(commonPageLocators.inputTabElectrical, " Electrical Tab",false);
         		}
-        		if (!configProperties.getProperty("server.site").equalsIgnoreCase("ottawa")){
-	        		addCart = commonPageLocators.spanAddToCart;
+        		if(configProperties.getProperty("server.site").equalsIgnoreCase("kandela")) {
+        			addCart = commonPageLocators.spanSelectPlan;
 	        		Checkout = commonPageLocators.buttonProceedToCheckout;
-        		}else {
-	        		scrollToElement(ottawaPageLocators.SelectAPlanOttawa);
+        		}else if (configProperties.getProperty("server.site").equalsIgnoreCase("ottawa")){
+        			scrollToElement(ottawaPageLocators.SelectAPlanOttawa);
 	        		clickElement(ottawaPageLocators.SelectAPlanOttawa, "Select A Plan",false);
 	        		addCart = commonPageLocators.addToCart;
 	        		Checkout = commonPageLocators.proceedToCheckout;
+        		}else {
+        			addCart = commonPageLocators.spanAddToCart;
+	        		Checkout = commonPageLocators.buttonProceedToCheckout;
         		}
         		break;
         	default:

@@ -51,6 +51,9 @@ public class CommonPageLocators {
     @FindBy(xpath = "(//span[contains(text(),'Add To Cart')])[1]")
     public WebElement spanAddToCart;
     
+    @FindBy(xpath = "(//span[contains(text(),'Select Plan')])[1]")
+    public WebElement spanSelectPlan;
+    
     @FindBy(xpath = "(//a[contains(text(),'Add To Cart')])[1]")
     public WebElement linkAddToCart;
     
@@ -75,7 +78,7 @@ public class CommonPageLocators {
     public WebElement inputCardNumber;
     
     // Category Tab    
-    @FindBy(xpath = "//input[@id='heatingandcooling']")
+    @FindBy(xpath = "//input[@id='electrical']/parent::div")
     public WebElement inputTabElectrical;
     
     @FindBy(xpath = "//div[@class='component generic-error-lightbox light-box js-generic-error-lb']")
@@ -151,6 +154,9 @@ public class CommonPageLocators {
     // Sign-Up Close BUtton
     @FindBy(xpath = "//button[contains(@class, \"email-capture-popup__close-button\")]")
     public WebElement signUpClose;
+    
+    @FindBy(xpath = "//button[contains(text(),\"View Plan\")]")
+    public WebElement buttonViewPlans;
     
     // Order confirmation Page
   	public WebElement hearAboutUs_Option(String option){
