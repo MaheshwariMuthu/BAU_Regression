@@ -101,6 +101,6 @@ public class HomeserveStepDef {
 	
 	@When("user validate all the links in a page")
 	public void user_validate_all_the_links_in_a_page()	throws Exception {
-		commonFunctions.validateBrokenLinks();
+		commonFunctions.validateBrokenLinks("Home Page");
 	}
 }

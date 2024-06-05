@@ -8,8 +8,11 @@ import static automationFramework.Waits.waitTillPageLoad;
 import static automationFramework.StartDriver.driver;
 import static automationFramework.PageActions.log;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.Charset;
@@ -113,16 +116,19 @@ public class CommonFunctions {
 	* Method Name	: validateBrokenLinks
 	* Description	: To validate the broken links
 	---------------------------------------------------------------------------------------------------------*/			
-		public void validateBrokenLinks() {
+		public void validateBrokenLinks(String page) {
 			// Finding all the available links on webpage
+			log.info("-------------------------"+page+"-----------------------");
 			List<WebElement> links = driver.findElements(By.tagName("a"));
 
 			// Iterating each link and checking the response status
 			for (WebElement link : links) {
 			String url = link.getAttribute("href");
 			String linkText = link.getAttribute("title");
-			verifyLink(linkText, url);
+			if((url!=null) && (!url.contains("javascript")) && (!url.contains("tel:"))) 
+				verifyLink(linkText, url);
 			}
+			log.info("--------------------------------------------------------------");
 		}
 		
 	/*------------------------------------------------------------------------------------------------------
@@ -137,11 +143,16 @@ public class CommonFunctions {
 				HttpURLConnection httpURLConnection = (HttpURLConnection) link.openConnection();
 				httpURLConnection.setConnectTimeout(3000); // Set connection timeout to 3 seconds
 				httpURLConnection.connect();
-
-				if (httpURLConnection.getResponseCode() == 200)
-					log.info(title + ":" + url + " - " + httpURLConnection.getResponseMessage() + "\n");
-				else
-					log.info(title + ":" + url + " - " + httpURLConnection.getResponseMessage() + " - " + "is a broken link\n");
+				InputStream input;
+				if (httpURLConnection.getResponseCode() == 200) {}
+					//log.info(title + ":" + url + " - " + httpURLConnection.getResponseMessage() + "\n");
+				else {
+					/*input = httpURLConnection.getErrorStream();
+		            BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+		            String msg;
+		            while ((msg =reader.readLine()) != null)
+		                System.out.println("Forbitten:"+msg);*/
+					log.info(title + ":" + url + " - " + httpURLConnection.getResponseMessage() + " - " + "is a broken link\n");}
 			} catch (Exception e) {
 				log.info(title + ":" + url + " - " + "is a broken link\n");
 			}

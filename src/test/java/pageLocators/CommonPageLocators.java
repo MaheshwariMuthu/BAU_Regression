@@ -57,12 +57,22 @@ public class CommonPageLocators {
     @FindBy(xpath = "(//a[contains(text(),'Add To Cart')])[1]")
     public WebElement linkAddToCart;
     
+    /* Selected  Plans X-path */
+	@FindBy(xpath = "//*[contains(text(),'Selected Plans')]/following::input[@type='checkbox'][1]/following-sibling::label/span[1]")
+	public WebElement SelectAPlan;
+
+	@FindBy(xpath = "//*[contains(text(),'Plans sélectionnés')]/following::input[@type='checkbox'][1]/following-sibling::label/span[1]")
+	public WebElement SelectAPlanFrench;
+	
     // Proceed To Checkout
     @FindBy(xpath = "(//span[contains(text(),'Proceed To Checkout')])[1]")
     public WebElement buttonProceedToCheckout;
     
     @FindBy(xpath = "(//a[contains(text(),'Proceed To Checkout')])[1]")
     public WebElement linkProceedToCheckout;
+    
+    @FindBy(xpath = "//div[contains(text(),'Proceed To Checkout')]")
+    public WebElement divProceedToCheckout;
   	
     @FindBy(xpath = "//div[@class='survey__form']/label[contains(.,'Other')]")
     public WebElement hearAboutUs_Option1;
@@ -76,6 +86,12 @@ public class CommonPageLocators {
     // Payment Details
     @FindBy(xpath = "//input[@id='number']")
     public WebElement inputCardNumber;
+    
+    @FindBy(xpath = "//input[@id='CardNumber']")
+    public WebElement inputCreditCardNumber;
+    
+    @FindBy(xpath = "//input[@id='Expiry']")
+    public WebElement inputExpiry;
     
     // Category Tab    
     @FindBy(xpath = "//input[@id='electrical']/parent::div")
@@ -158,6 +174,12 @@ public class CommonPageLocators {
     @FindBy(xpath = "//button[contains(text(),\"View Plan\")]")
     public WebElement buttonViewPlans;
     
+    @FindBy(xpath = "//div[@class=\"hero-zipin zipin\"]/*//span[contains(text(),\"View Plan\")]")
+    public WebElement spanViewPlans;
+    
+    @FindBy(xpath = "//button[text()='Complete Secure Checkout']")
+    public WebElement buttonCompleteCheckout;
+    
     // Order confirmation Page
   	public WebElement hearAboutUs_Option(String option){
   		WebElement linkFooter = driver.findElement(By.xpath("//div[@class='survey__form']/label[contains(.,'" + option +"')]"));	
@@ -175,6 +197,7 @@ public class CommonPageLocators {
     })public WebElement txtZipCodeHearder;
 
     @FindAll({
+    		@FindBy(xpath = "//input[@id='home-zip-input'][1]"),
             @FindBy(xpath = "(//input[@name='zipcode'])[3]"),
             @FindBy(xpath = "/html/body/main/section/div[2]/div/div/div/div[2]/div/form/fieldset/div/div/div[2]/div/input[1]"),
             @FindBy(xpath = "//*[@id=\"zip-code\"]"),
@@ -205,6 +228,7 @@ public class CommonPageLocators {
             @FindBy(xpath = "//button[text()='Add To Cart']"),
             @FindBy(xpath = "//*[@class='button js-add-to-cart']"),
             @FindBy(xpath = "(//span[text()='Add To Cart'])[1]"),
+            @FindBy(xpath = "(//span[text()='Ajouter au panier'])[1]"),
     })public WebElement addToCart;
 
     @FindAll({

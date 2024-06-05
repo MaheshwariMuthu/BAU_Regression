@@ -9,6 +9,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 
 import DataMapping.testDataMapping;
+import automationFramework.CommonFunctions;
 import automationFramework.PageActions;
 import pageLocators.CommonPageLocators;
 import static automationFramework.DataReader.*;
@@ -31,6 +32,7 @@ public class HSLandingPageActions {
     public static String currentDateandTime;
     public static Logger log = Logger.getLogger(HSLandingPageActions.class);
     CommonPageLocators commonPageLocators = new CommonPageLocators();
+    CommonFunctions commonFunctions = new CommonFunctions();
     Utils Utils = new Utils();
 
 
@@ -164,36 +166,15 @@ public class HSLandingPageActions {
      * @throws InterruptedException
      */
     public void verifyOrderConformedSuccessfully() throws Exception {
+    	String sanity = testDataMapping.getValue(inputDataMapping,"SanityPack");
         try {
-            if (commonPageLocators.AddressNotFound.getText().contains("Address not found!")) {
-                clickElement(commonPageLocators.use_This_Address, "use the address", false);
-                waitTillPageLoad();
-                Thread.sleep(10000);
-                if (waitForElementavailblilityboolean(commonPageLocators.orderConfirmationTitle,"orderConfirmationTitle",30)) {
-                    Assert.assertTrue("Order Confirmation not present ", verifyWebElementPresent(commonPageLocators.orderConfirmationTitle));
-                    BrowserorderNumberText = commonPageLocators.orderNumber.getText();
-                    String[] parts = BrowserorderNumberText.split("\\.");
-                    String extractedValue = parts[1];
-
-                    BrowserorderNumberTexts = extractedValue.trim();
-                    testDataMapping.setValue(outputData, "H_RefNo", BrowserorderNumberTexts);
-                    testDataMapping.setValue(outputData, "Status", "PASS");
-                    log.info("Order Number is: " + BrowserorderNumberTexts+"\n");
-                    log.info("Sale completed.\n");
-
-                } else if (verifyWebElementPresent(commonPageLocators.PaymentnotprocessedDialog)) {
-                    testDataMapping.setValue(outputData, "Status", "FAIL");
-                    testDataMapping.setValue(outputData, "Reason", "Payment Not Processed");
-                    log.info("ERROR : ------Payment Not Processed:--------\n");
-                    Assert.fail("ERROR : ------Payment Not Processed:--------\n");
-                }else {
-                    testDataMapping.setValue(outputData, "Status", "FAIL");
-                    testDataMapping.setValue(outputData, "Reason", "Sale Not Completed OR UI Latency issue");
-                    log.info("ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------\n");
-                    Assert.fail("ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------");
-                }
-            } else {
-
+        	if (verifyWebElementVisibleWebElementBoolean(commonPageLocators.AddressNotFound)) {
+        		if (commonPageLocators.AddressNotFound.getText().contains("Address not found!")) {
+        			clickElement(commonPageLocators.use_This_Address, "use the address", false);
+                    Thread.sleep(10000);
+                    waitTillPageLoad();
+        		}
+        	}
                 if (configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve")) {
                     clickElement(commonPageLocators.hearAboutUs_Option("Other"), "Hear About Us Option", false);
                     Thread.sleep(2000);
@@ -217,7 +198,25 @@ public class HSLandingPageActions {
                     testDataMapping.setValue(outputData, "Status", "PASS");
                     log.info("Order Number is : " + BrowserorderNumberTexts+"\n");
                     log.info("Sale completed.\n");
-                } else {
+                } else if (verifyWebElementVisibleWebElementBoolean(commonPageLocators.orderConfirmationTitle)) {
+                    Assert.assertTrue("Order Confirmation not present ", verifyWebElementPresent(commonPageLocators.orderConfirmationTitle));
+                    BrowserorderNumberText = commonPageLocators.orderNumber.getText();
+                    System.out.println("BrowserorderNumberText:"+BrowserorderNumberText);
+                    String[] parts = BrowserorderNumberText.split("\\.");
+                    String extractedValue = parts[1];
+
+                    BrowserorderNumberTexts = extractedValue.trim();
+                    testDataMapping.setValue(outputData, "H_RefNo", BrowserorderNumberTexts);
+                    testDataMapping.setValue(outputData, "Status", "PASS");
+                    log.info("Order Number is: " + BrowserorderNumberTexts+"\n");
+                    log.info("Sale completed.\n");
+
+                }else if (verifyWebElementPresent(commonPageLocators.PaymentnotprocessedDialog)) {
+                    testDataMapping.setValue(outputData, "Status", "FAIL");
+                    testDataMapping.setValue(outputData, "Reason", "Payment Not Processed");
+                    log.info("ERROR : ------Payment Not Processed:--------\n");
+                    Assert.fail("ERROR : ------Payment Not Processed:--------\n");
+                }else if (verifyWebElementVisibleWebElementBoolean(commonPageLocators.feedbackPopUpCloseBtn)) {
                     clickElement(commonPageLocators.feedbackPopUpCloseBtn, "Feedback close btn", false);
                     Assert.assertTrue("Order Confirmation not present ", verifyWebElementPresent(commonPageLocators.orderConfirmationTitle));
                     BrowserorderNumberText = commonPageLocators.orderNumber.getText();
@@ -229,9 +228,15 @@ public class HSLandingPageActions {
                     log.info("Order Number is: " + BrowserorderNumberTexts+"\n");
                     Assert.assertTrue("Order Confirmation not present ", verifyWebElementPresent(getWebElementByText("Create Account")));
                     log.info("Sale completed.\n");
+                }else {
+                    testDataMapping.setValue(outputData, "Status", "FAIL");
+                    testDataMapping.setValue(outputData, "Reason", "Sale Not Completed OR UI Latency issue");
+                    log.info("ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------\n");
+                    Assert.fail("ERROR : ------Sale Not Completed OR UI Latency issue, check screenshots:--------");
                 }
-//            }
-            }
+        	if(sanity.equals("Yes")) {
+        		commonFunctions.validateBrokenLinks("Order Confirmation Page");
+        	}
         } catch (Exception e) {
             e.printStackTrace();
             testDataMapping.setValue(outputData, "Status", "FAIL");

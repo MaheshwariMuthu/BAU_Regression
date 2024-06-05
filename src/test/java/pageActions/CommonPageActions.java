@@ -30,13 +30,12 @@ import automationFramework.CommonFunctions;
 import automationFramework.PageActions;
 import automationFramework.Waits;
 import pageLocators.CommonPageLocators;
-import pageLocators.OttawaPageLocators;
 import static DataMapping.testDataMapping.configProperties;
 
 public class CommonPageActions {
     CommonPageLocators commonPageLocators = new CommonPageLocators();
-	OttawaPageLocators ottawaPageLocators = new OttawaPageLocators();
     PageActions pageActions = new PageActions();
+	CommonFunctions commonFunctions = new CommonFunctions();
     public static Logger log = Logger.getLogger(PageActions.class);
   
     public CommonPageActions() {
@@ -52,8 +51,8 @@ public class CommonPageActions {
             throws InterruptedException, IOException, ParseException {
         driver.get(geturl());
         waitTillPageLoad();
-        //if (configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))
-        //	signupPopupClose();
+        if (configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))
+        	signupPopupClose();
 		closeCookiesBottom();
     }
 
@@ -70,7 +69,10 @@ public class CommonPageActions {
                 configProperties.getProperty("server.site").equalsIgnoreCase("wvwachoice") ||
                 configProperties.getProperty("server.site").equalsIgnoreCase("lasanitation")||
                 configProperties.getProperty("server.site").equalsIgnoreCase("buffalowaternipcnew")||
+                configProperties.getProperty("server.site").equalsIgnoreCase("charlotte-gritty")||
                 configProperties.getProperty("server.site").equalsIgnoreCase("Slwofa")||
+                configProperties.getProperty("server.site").equalsIgnoreCase("kingston")||
+                configProperties.getProperty("server.site").equalsIgnoreCase("apco-carousel")||
                 configProperties.getProperty("server.site").equalsIgnoreCase("ottawa")){
         	
         }else{
@@ -93,7 +95,10 @@ public class CommonPageActions {
     public void enterZipCodeAndSubmit() throws InterruptedException, IOException {
     	zipCode = testDataMapping.getValue(inputDataMapping,"Zipcode");
     	zipLocation = testDataMapping.getValue(inputDataMapping,"ZipLocation");
-    	
+    	String sanity = testDataMapping.getValue(inputDataMapping,"SanityPack");
+    	if(sanity.equals("Yes")) {
+    		commonFunctions.validateBrokenLinks("Home Page");
+    	}
     	testDataMapping.setValue(outputData, "zipCode", zipCode);
     	switch(zipLocation) {
     		case "header":
@@ -127,6 +132,9 @@ public class CommonPageActions {
 	                	waitTillPageLoad();
 	                	clickElement(commonPageLocators.viewAvailablePlans, "View available plans", false);
 	                	break;
+	                case "homeserve-ca":
+	                	clickElement(commonPageLocators.spanViewPlans, "View Plans", false);
+	                	break;
                 }
                 waitTillPageLoad();
                 break;
@@ -153,7 +161,8 @@ public class CommonPageActions {
         firstName = testDataMapping.getValue(inputDataMapping, "FirstName")+ CommonFunctions.randomString(5);
         lastName = testDataMapping.getValue(inputDataMapping, "LastName") + CommonFunctions.randomString(5);
         city = testDataMapping.getValue(inputDataMapping, "City");
-        zipCode = testDataMapping.getValue(inputDataMapping, "Zipcode");
+        zipCode = testDataMapping.getValue(inputDataMapping,"Zipcode");
+    	zipLocation = testDataMapping.getValue(inputDataMapping,"ZipLocation");
         testDataMapping.setValue(outputData, "firstName", firstName);
         testDataMapping.setValue(outputData, "lastName", lastName);
         testDataMapping.setValue(outputData, "Email", Email);
@@ -162,6 +171,7 @@ public class CommonPageActions {
 
         switch(configProperties.getProperty("server.site")) {
         	case "Homeserve":
+        	case "homeserve-ca":
         		typeText(commonPageLocators.firstName, firstName, "First name");
         		typeText(commonPageLocators.addressLine, Address, "Address");
         		break;
@@ -176,15 +186,18 @@ public class CommonPageActions {
         typeText(getWebElementByID("address-line-2"), ApartmentNumber, "Address Second");
         typeText(getWebElementByID("home-phone"), PhoneNumber, "Home Phone");
             
-        if (configProperties.getProperty("server.site").equalsIgnoreCase("ottawa") ||
+       /* if (configProperties.getProperty("server.site").equalsIgnoreCase("ottawa") ||
                 configProperties.getProperty("server.site").equalsIgnoreCase("aepindianamichigan") ||
                 configProperties.getProperty("server.site").equalsIgnoreCase("buffalowaternipcnew") ||
                 configProperties.getProperty("server.site").equalsIgnoreCase("firstenergy-fundle") ||
                 configProperties.getProperty("server.site").equalsIgnoreCase("kypower-tabs") ||
+                configProperties.getProperty("server.site").equalsIgnoreCase("kingston") ||
                 configProperties.getProperty("server.site").equalsIgnoreCase("lasanitation") ||
                 configProperties.getProperty("server.site").equalsIgnoreCase("sanjose") ||
                 configProperties.getProperty("server.site").equalsIgnoreCase("HomeServe-CE") ||
-                configProperties.getProperty("server.site").equalsIgnoreCase("wvwachoice")) {
+                configProperties.getProperty("server.site").equalsIgnoreCase("charlotte-gritty") ||
+                configProperties.getProperty("server.site").equalsIgnoreCase("wvwachoice")) {*/
+        if(zipLocation.equals("CheckoutPage")){
             typeText(getWebElementByID("city"), city, "City");
             typeText(getWebElementByID("zip-code"), zipCode, "Zip code");
             log.info("Enter the zipcode: "+zipCode+"\n");
@@ -249,6 +262,10 @@ public class CommonPageActions {
         WebElement addCart = null;
         WebElement Checkout = null;
         zipLocation = testDataMapping.getValue(inputDataMapping, "ZipLocation");
+        String sanity = testDataMapping.getValue(inputDataMapping,"SanityPack");
+    	if(sanity.equals("Yes")) {
+    		commonFunctions.validateBrokenLinks("Product Listing Page");
+    	}
         switch(zipLocation) {
         	case "header":
         		addCart = commonPageLocators.buttonAddToCart;
@@ -262,11 +279,22 @@ public class CommonPageActions {
         		if(configProperties.getProperty("server.site").equalsIgnoreCase("kandela")) {
         			addCart = commonPageLocators.spanSelectPlan;
 	        		Checkout = commonPageLocators.buttonProceedToCheckout;
-        		}else if (configProperties.getProperty("server.site").equalsIgnoreCase("ottawa")){
-        			scrollToElement(ottawaPageLocators.SelectAPlanOttawa);
-	        		clickElement(ottawaPageLocators.SelectAPlanOttawa, "Select A Plan",false);
+        		}else if ((configProperties.getProperty("server.site").equalsIgnoreCase("ottawa")) ||
+        				(configProperties.getProperty("server.site").equalsIgnoreCase("kingston"))||
+        				(configProperties.getProperty("server.site").equalsIgnoreCase("wvwachoice"))||
+        				(configProperties.getProperty("server.site").equalsIgnoreCase("charlotte-gritty"))){
+        			if(configProperties.getProperty("server.site").equalsIgnoreCase("ottawa")) {
+        				scrollToElement(commonPageLocators.SelectAPlanFrench);
+		        		clickElement(commonPageLocators.SelectAPlanFrench, "Select A Plan",false);
+        			}else {
+	        			scrollToElement(commonPageLocators.SelectAPlan);
+		        		clickElement(commonPageLocators.SelectAPlan, "Select A Plan",false);
+        			}
 	        		addCart = commonPageLocators.addToCart;
-	        		Checkout = commonPageLocators.proceedToCheckout;
+	        		Checkout = commonPageLocators.divProceedToCheckout;
+        		}else if (configProperties.getProperty("server.site").equalsIgnoreCase("homeserve-ca")){
+        			addCart = commonPageLocators.buttonAddToCart;
+	        		Checkout = commonPageLocators.linkProceedToCheckout;
         		}else {
         			addCart = commonPageLocators.spanAddToCart;
 	        		Checkout = commonPageLocators.buttonProceedToCheckout;
@@ -292,20 +320,24 @@ public class CommonPageActions {
 
                     waitTillPageLoad();
                     System.out.println(configProperties.getProperty("server.site"));
-                    if (configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve")){
+                    if ((configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve")) ||
+                    		(configProperties.getProperty("server.site").equalsIgnoreCase("homeserve-ca"))){
 	                    if (verifyWebElementVisibleWebElementBoolean(commonPageLocators.addOn_linkCheckout)) {
 	                    	clickElement(commonPageLocators.addOn_linkCheckout, "Checkout", false);
 	                    }else if(verifyWebElementVisibleWebElementBoolean(getWebElementByText("Proceed To Checkout"))) {
 	                    	clickElement(getWebElementByText("Proceed To Checkout"), "Proceed To Checkout", false);
 	                    }
                     }
-                    if (configProperties.getProperty("server.site").equalsIgnoreCase("slwofc") ||
+                    if ((configProperties.getProperty("server.site").equalsIgnoreCase("slwofc") ||
                             configProperties.getProperty("server.site").equalsIgnoreCase("aepindianamichigan") ||
                             configProperties.getProperty("server.site").equalsIgnoreCase("kypower-tabs") ||
-                            //	configProperties.getProperty("server.site").equalsIgnoreCase("firstenergy-fundle")||
+                            configProperties.getProperty("server.site").equalsIgnoreCase("charlotte-gritty")||
+                            configProperties.getProperty("server.site").equalsIgnoreCase("kingston")||
                             configProperties.getProperty("server.site").equalsIgnoreCase("sanjose") ||
                             configProperties.getProperty("server.site").equalsIgnoreCase("wvwachoice")||
-                            configProperties.getProperty("server.site").equalsIgnoreCase("ottawa")
+                            configProperties.getProperty("server.site").equalsIgnoreCase("cnpee")||
+                            configProperties.getProperty("server.site").equalsIgnoreCase("cnpgeneral")||
+                            configProperties.getProperty("server.site").equalsIgnoreCase("ottawa"))
                     ) {
                     	if (verifyWebElementVisibleWebElementBoolean(commonPageLocators.linkProceedToCheckout))
                     		clickElement(getWebElementByText("Proceed To Checkout"), "Proceed To Checkout", false);
@@ -422,29 +454,39 @@ public class CommonPageActions {
     
     public void enterCreditDebitCardDetails() throws InterruptedException, IOException {
     	String paperless = testDataMapping.getValue(inputDataMapping, "Paperless");
+    	cardNumber = testDataMapping.getValue(inputDataMapping, "CardNumber");
     	if(paperless.equals("No")) {
     		scrollToElement(commonPageLocators.select_Go_PaperLess);
 			clickElement(commonPageLocators.select_Go_PaperLess, "select_Go_PaperLess",false);
     	}
     	
-    	if(!configProperties.getProperty("server.site").equals("Homeserve")) {
+    	if((!configProperties.getProperty("server.site").equals("Homeserve"))&&
+    			(!configProperties.getProperty("server.site").equals("homeserve-ca"))){
     		clickElement(commonPageLocators.choosePaymentTYpe, "Choose Payment Type",false);
     	}
     	
     	switch(configProperties.getProperty("server.site")) {
 			case "slwofc":
 			case "ottawa":
-				//if (configProperties.getProperty("server.site").equalsIgnoreCase("ottawa"))
-				switchToIFrame(1);
-				//else
-				//	switchToIFrame(2);
+			case "kingston":
+			case "homeserve-ca":
+				if ((configProperties.getProperty("server.site").equalsIgnoreCase("ottawa"))||
+					(configProperties.getProperty("server.site").equalsIgnoreCase("homeserve-ca"))||
+					(configProperties.getProperty("server.site").equalsIgnoreCase("kingston")))
+					switchToIFrame(1);
+				else
+					switchToIFrame(2);
 				waitForElement(commonPageLocators.card_Number,"card Number",10);
-				commonPageLocators.card_Number.sendKeys(configProperties.getProperty("card.Number"));
+				commonPageLocators.card_Number.sendKeys(cardNumber);
 				commonPageLocators.month_Year.sendKeys("0527");
 				clickElement(commonPageLocators.add_Card, "add card",false);
 				sleep(2);
 				driver.switchTo().defaultContent();
-				clickElement(commonPageLocators.completeSecureCheckout, "completeSecureCheckout",false);
+				
+				if(configProperties.getProperty("server.site").equals("homeserve-ca"))
+					clickElement(commonPageLocators.buttonCompleteCheckout, "completeSecureCheckout",false);
+				else
+					clickElement(commonPageLocators.completeSecureCheckout, "completeSecureCheckout",false);
 				break;
 			case "Homeserve":
 				WebElement Paymenttype = driver.findElement(By.className("select2-selection__rendered"));
@@ -455,19 +497,21 @@ public class CommonPageActions {
 				//typeText(commonPageLocators.inputCardNumber, configProperties.getProperty("card.Number"), "card number");
 				JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 				jsExecutor.executeScript("arguments[0].click();", commonPageLocators.inputCardNumber);
-				commonPageLocators.inputCardNumber.sendKeys(configProperties.getProperty("card.Number"));
+				commonPageLocators.inputCardNumber.sendKeys(cardNumber);
 				driver.switchTo().defaultContent();
 				typeText(getWebElementByID("micro-exp-date"), testDataMapping.getValue(inputDataMapping, "ExpiryDate"), "Expiratioin Date");
 				clickElement(commonPageLocators.completeSecureCheckout, "Checkout",false);
 				break;
 			default:
-				if (configProperties.getProperty("server.site").equalsIgnoreCase("lasanitation")||
-						configProperties.getProperty("server.site").equalsIgnoreCase("slwofa"))
+				if ((configProperties.getProperty("server.site").equalsIgnoreCase("lasanitation"))||
+						(configProperties.getProperty("server.site").equalsIgnoreCase("wvwachoice"))||
+						(configProperties.getProperty("server.site").equalsIgnoreCase("slwofa"))) {
 					switchToIFrame(1);
-				else
+				}else {
 					switchToIFrame(2);
+				}
 				clickElement(commonPageLocators.cardType, "cardtype",false);
-				typeText(commonPageLocators.card_Number, configProperties.getProperty("card.Number"), "card number");
+				typeText(commonPageLocators.card_Number, cardNumber, "card number");
 				clickElement(commonPageLocators.cardExpiryMonth, "cardExpiryMonth",false);
 				selectFromDropdownByValue(commonPageLocators.cardExpiryMonth, "05");
 				clickElement(commonPageLocators.cardExpiryYear, "cardExpiryYear",false);
@@ -475,7 +519,8 @@ public class CommonPageActions {
 				clickElement(commonPageLocators.nextButton, "Next Button",false);
 				sleep(5);
 				driver.switchTo().defaultContent();
-				clickElement(getWebElementByClass("button js-post-message"), "Complete Secure Checkout",false);
+				clickElement(commonPageLocators.completeSecureCheckout, "Complete Secure Checkout",false);
+				//clickElement(getWebElementByClass("button js-post-message"), "Complete Secure Checkout",false);
 				break;
     	}
     	getCurrentTime();
@@ -504,7 +549,12 @@ public class CommonPageActions {
 	public void selectBillingFrequency() throws InterruptedException, IOException {
 		billFrequency = testDataMapping.getValue(inputDataMapping,"BillingFrequency");
 		testDataMapping.setValue(outputData, "billingFrequency", billFrequency);
-		if(configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve")){
+		String sanity = testDataMapping.getValue(inputDataMapping,"SanityPack");
+    	if(sanity.equals("Yes")) {
+    		commonFunctions.validateBrokenLinks("Checkout Page");
+    	}
+		if((configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))||
+				(configProperties.getProperty("server.site").equalsIgnoreCase("homeserve-ca"))){
 			clickElement(getWebElementByClass("billing-frequency__dropdown"),"Bill Frequency",false);
 			WebElement FreqDropdown = getWebElementByClass("billing-frequency__dropdown");
 			if(billFrequency.equalsIgnoreCase("Monthly")) {
@@ -550,8 +600,8 @@ public class CommonPageActions {
 	---------------------------------------------------------------------------------------------------------*/ 
 	public void selectThePlanAndAddToCartAndProceedToCheckout() throws InterruptedException {
 		waitTillPageLoad();
-		scrollToElement(ottawaPageLocators.SelectAPlanOttawa);
-		clickElement(ottawaPageLocators.SelectAPlanOttawa, "Select A Plan",false);
+		scrollToElement(commonPageLocators.SelectAPlan);
+		clickElement(commonPageLocators.SelectAPlan, "Select A Plan",false);
 		clickElement(commonPageLocators.addToCart, "Add to cart",false);
 		clickElement(commonPageLocators.proceedToCheckout, "Proceed to checkout",false);
 		clickElement(commonPageLocators.proceedToCheckout, "Proceed to checkout",false);
