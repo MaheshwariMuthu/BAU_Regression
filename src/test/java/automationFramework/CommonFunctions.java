@@ -24,6 +24,7 @@ import java.util.List;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang.time.DateUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -91,6 +92,21 @@ public class CommonFunctions {
 		public static String returnDate(String format) {		
 			SimpleDateFormat dateFormat = new SimpleDateFormat(format);
 		    Date date = new Date();
+		    String dateToStr = dateFormat.format(date);
+		    System.out.println("Date:"+dateToStr);
+			return dateToStr;
+		}
+		
+		/*------------------------------------------------------------------------------------------------------
+		 * Author		: Maheswari Muthu
+		 * Date			: 28-05-2023
+		 * Method Name	: returnTodayDate
+		 * Description	: To return current date as string
+		 ---------------------------------------------------------------------------------------------------------*/
+		public static String returnNextDate(String format) {		
+			SimpleDateFormat dateFormat = new SimpleDateFormat(format);
+		    Date date = new Date();
+		    date = DateUtils.addDays(date, 1);
 		    String dateToStr = dateFormat.format(date);
 		    System.out.println("Date:"+dateToStr);
 			return dateToStr;

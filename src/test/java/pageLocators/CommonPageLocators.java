@@ -32,6 +32,15 @@ public class CommonPageLocators {
     
     @FindBy(xpath = "//button[@class='button zip-button js-show-ps']/span[contains(text(),'Get a quote')]")
     public WebElement buttonGetAQuote;
+    
+    @FindBy(xpath = "//input[@id='zip']")
+    public WebElement inputZipcode;
+    
+    @FindBy(xpath = "//input[@id='tech-id']")
+    public WebElement inputTechID;
+    
+    @FindBy(xpath = "//button[text()='Get Started']")
+    public WebElement buttonGetStarted;
 
     // Header enter zip-code    
     @FindBy(xpath = "//div[@class='field zip-bar']/input[@name='zipcode']/following::button[@type='submit']//span[text()='View Plans']")
@@ -109,6 +118,9 @@ public class CommonPageLocators {
     
     @FindBy(xpath = "//*[@id=\"code-input\"]")
     public WebElement entercodepopup;
+    
+    @FindBy(xpath = "//input[@id='move-in-date']")
+    public WebElement moveInDate;
 
     @FindBy(xpath = "//*[@id='mtw-code-form']/fieldset/div/a")
     public WebElement entercodepopupClose;
@@ -174,6 +186,9 @@ public class CommonPageLocators {
     @FindBy(xpath = "//button[contains(text(),\"View Plan\")]")
     public WebElement buttonViewPlans;
     
+    @FindBy(xpath = "//button[contains(text(),\"VIEW PLANS\")]")
+    public WebElement buttonViewPlan;
+    
     @FindBy(xpath = "//div[@class=\"hero-zipin zipin\"]/*//span[contains(text(),\"View Plan\")]")
     public WebElement spanViewPlans;
     
@@ -185,6 +200,11 @@ public class CommonPageLocators {
   		WebElement linkFooter = driver.findElement(By.xpath("//div[@class='survey__form']/label[contains(.,'" + option +"')]"));	
   		return linkFooter;
   	}
+  	
+  	public WebElement radioCardType(String cardType){
+		 WebElement cardtype = driver.findElement(By.xpath("//label[text()='"+cardType+"']/parent::div/input"));	
+		 return cardtype;
+	}
   	
     @FindAll({
             @FindBy(css = "a[class='link js-header-enter-zip'] > span"),
@@ -201,6 +221,7 @@ public class CommonPageLocators {
             @FindBy(xpath = "(//input[@name='zipcode'])[3]"),
             @FindBy(xpath = "/html/body/main/section/div[2]/div/div/div/div[2]/div/form/fieldset/div/div/div[2]/div/input[1]"),
             @FindBy(xpath = "//*[@id=\"zip-code\"]"),
+            @FindBy(xpath = "//input[@class=\"zip-value zip-val \"]"),
             @FindBy(xpath = "(//button[@type='submit'])[3]")
     })public WebElement txtZipCode;
 
@@ -342,6 +363,8 @@ public class CommonPageLocators {
             @FindBy(xpath = "//div[@id='onetrust-close-btn-container']/descendant::button"),
             @FindBy(xpath = "/html/body/main/div[3]/div/button"),
             @FindBy(xpath = "/html/body/main/div[6]/div/button"),
+            @FindBy(xpath = "//button[contains(@class,'footer-banner__close')]"),
+            @FindBy(xpath = "//span[contains(text(),'What do we use cookies for?')]/preceding-sibling::button"),
     })public WebElement cookiesClose;
     
     /*@FindAll({

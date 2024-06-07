@@ -175,14 +175,19 @@ public class HSLandingPageActions {
                     waitTillPageLoad();
         		}
         	}
-                if (configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve")) {
-                    clickElement(commonPageLocators.hearAboutUs_Option("Other"), "Hear About Us Option", false);
-                    Thread.sleep(2000);
-                    clickElement(commonPageLocators.hearAboutUs_Finish, "Finish", false);
-                    Thread.sleep(2000);
-                    clickElement(commonPageLocators.feedback_Close, "Close", false);
-                    Thread.sleep(2000);
-                    Assert.assertTrue("Order Confirmation not present ", verifyWebElementPresent(commonPageLocators.orderConfirmationTitle));
+                if ((configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))||
+                	(configProperties.getProperty("server.site").equalsIgnoreCase("servline-water"))||
+                	(configProperties.getProperty("server.site").equalsIgnoreCase("homeserve-ca"))){
+                	if ((configProperties.getProperty("server.site").equalsIgnoreCase("servline-water"))||
+                			(configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))){
+	                    clickElement(commonPageLocators.hearAboutUs_Option("Other"), "Hear About Us Option", false);
+	                    Thread.sleep(2000);
+	                    clickElement(commonPageLocators.hearAboutUs_Finish, "Finish", false);
+	                    Thread.sleep(2000);
+	                    clickElement(commonPageLocators.feedback_Close, "Close", false);
+	                    Thread.sleep(2000);
+                	}
+                    Assert.assertTrue("Order Confirmation present ", verifyWebElementPresent(commonPageLocators.orderConfirmationTitle));
                     WebElement ordertext = driver.findElement(By.xpath("//*[@id=\"site-main\"]/div[2]/div/div/div/div/div[2]/div/span[1]"));
                     scrollToElement(ordertext);
                     BrowserorderNumberTexts = ordertext.getText();

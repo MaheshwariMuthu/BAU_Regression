@@ -20,6 +20,8 @@ public class Constant {
 	public static String zipLocation;
 	public static String billFrequency;
 	public static String cardNumber;
+	public static String techID;
+	public static String cardType;
 	
 	public static HashMap<String, String> URLMapping = new HashMap();
 	public static HashMap<String, String> inputDataMapping = new HashMap();
