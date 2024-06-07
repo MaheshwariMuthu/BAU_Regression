@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import java.io.IOException;
 
 public class StartDriver {
-	public static WebDriver driver;
+	public static WebDriver driver; 
 
 	/*
 	 * Description: Initialize Driver

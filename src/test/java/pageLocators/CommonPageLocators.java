@@ -73,6 +73,10 @@ public class CommonPageLocators {
 	@FindBy(xpath = "//*[contains(text(),'Plans sélectionnés')]/following::input[@type='checkbox'][1]/following-sibling::label/span[1]")
 	public WebElement SelectAPlanFrench;
 	
+	@FindBy(xpath = "(//button[contains(text(),'See available plans')])[1]")
+	public WebElement buttonSeeAvailablePlans;
+
+	
     // Proceed To Checkout
     @FindBy(xpath = "(//span[contains(text(),'Proceed To Checkout')])[1]")
     public WebElement buttonProceedToCheckout;
@@ -222,7 +226,8 @@ public class CommonPageLocators {
             @FindBy(xpath = "/html/body/main/section/div[2]/div/div/div/div[2]/div/form/fieldset/div/div/div[2]/div/input[1]"),
             @FindBy(xpath = "//*[@id=\"zip-code\"]"),
             @FindBy(xpath = "//input[@class=\"zip-value zip-val \"]"),
-            @FindBy(xpath = "(//button[@type='submit'])[3]")
+            @FindBy(xpath = "(//button[@type='submit'])[3]"),
+    		@FindBy(xpath = "(//input[@class=\"zippin__field override-zip\"])[1]"),
     })public WebElement txtZipCode;
 
     @FindAll({

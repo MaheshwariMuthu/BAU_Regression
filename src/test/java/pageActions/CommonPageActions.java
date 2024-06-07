@@ -51,8 +51,8 @@ public class CommonPageActions {
             throws InterruptedException, IOException, ParseException {
         driver.get(geturl());
         waitTillPageLoad();
-        if (configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))
-        	signupPopupClose();
+       // if (configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))
+        	//signupPopupClose();
 		closeCookiesBottom();
     }
 
@@ -141,6 +141,9 @@ public class CommonPageActions {
 	                	waitTillPageLoad();
 	                	clickElement(commonPageLocators.viewAvailablePlans, "View available plans", false);
 	                	break;
+	                case "pk-yellow-no-redirect":
+	                	clickElement(commonPageLocators.buttonSeeAvailablePlans, "See available Plans", false);
+	                	break;
                 }
                 waitTillPageLoad();
                 break;
@@ -198,6 +201,7 @@ public class CommonPageActions {
         	case "Homeserve":
         	case "homeserve-ca":
         	case "servline-water":
+        	case "pk-yellow-no-redirect":
         		typeText(commonPageLocators.firstName, firstName, "First name");
         		typeText(commonPageLocators.addressLine, Address, "Address");
         		break;
@@ -318,6 +322,7 @@ public class CommonPageActions {
 	        		addCart = commonPageLocators.addToCart;
 	        		Checkout = commonPageLocators.divProceedToCheckout;
         		}else if ((configProperties.getProperty("server.site").equalsIgnoreCase("homeserve-ca"))||
+        				(configProperties.getProperty("server.site").equalsIgnoreCase("pk-yellow-no-redirect"))||
         				(configProperties.getProperty("server.site").equalsIgnoreCase("servline-water"))){
         			addCart = commonPageLocators.buttonAddToCart;
 	        		Checkout = commonPageLocators.linkProceedToCheckout;
@@ -347,6 +352,7 @@ public class CommonPageActions {
                     System.out.println(configProperties.getProperty("server.site"));
                     if ((configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve")) ||
                     		(configProperties.getProperty("server.site").equalsIgnoreCase("servline-water"))||
+                    		(configProperties.getProperty("server.site").equalsIgnoreCase("pk-yellow-no-redirect"))||
                     		(configProperties.getProperty("server.site").equalsIgnoreCase("homeserve-ca"))){
 	                    if (verifyWebElementVisibleWebElementBoolean(commonPageLocators.addOn_linkCheckout)) {
 	                    	clickElement(commonPageLocators.addOn_linkCheckout, "Checkout", false);
@@ -407,11 +413,13 @@ public class CommonPageActions {
 				System.err.println("PaymentType is provided incorrectly");
 				break;
 		}
-		if((configProperties.getProperty("server.site").equals("homeserve-ca"))||
-				(configProperties.getProperty("server.site").equals("fplhometech"))) {
-			clickElement(commonPageLocators.buttonCompleteCheckout, "completeSecureCheckout",false);
-		} else {
-			clickElement(commonPageLocators.completeSecureCheckout, "completeSecureCheckout",false);
+		if(!paymentType.equals("Checking Account")) {
+			if((configProperties.getProperty("server.site").equals("homeserve-ca"))||
+					(configProperties.getProperty("server.site").equals("fplhometech"))) {
+				clickElement(commonPageLocators.buttonCompleteCheckout, "completeSecureCheckout",false);
+			} else {
+				clickElement(commonPageLocators.completeSecureCheckout, "completeSecureCheckout",false);
+			}
 		}
 	}
 
@@ -450,6 +458,7 @@ public class CommonPageActions {
     
     public void enterCheckingAccountDetails() throws InterruptedException, IOException {
     	if((configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))||
+    			(configProperties.getProperty("server.site").equalsIgnoreCase("pk-yellow-no-redirect"))||
     			(configProperties.getProperty("server.site").equalsIgnoreCase("servline-water"))){
 			WebElement Paymenttype = driver.findElement(By.className("select2-selection__rendered"));
 			Paymenttype.click();
@@ -462,6 +471,7 @@ public class CommonPageActions {
     	switch(configProperties.getProperty("server.site")) {
 		case "Homeserve":
 		case "servline-water":
+		case "pk-yellow-no-redirect":
 			typeText(getWebElementByID("checking-full-name"), testDataMapping.getValue(inputDataMapping,"FullName"), "Full name");
 			typeText(getWebElementByID("checking-routing-number"), testDataMapping.getValue(inputDataMapping,"RoutingNumber"), "Routing number");
 			typeText(getWebElementByID("checking-account-number"), "6011000000000000", "Account number");
@@ -477,7 +487,7 @@ public class CommonPageActions {
 			typeText(getWebElementByID("routing-number"), testDataMapping.getValue(inputDataMapping,"RoutingNumber"), "Routing number");
 			typeText(getWebElementByID("checking-account"), "6011000000000000", "Account number");
 			typeText(getWebElementByID("verify-checking-account"), "6011000000000000", "Checking account number");
-			//clickElement(commonPageLocators.completeSecureCheckout, "completeSecureCheckout",false);
+			clickElement(commonPageLocators.completeSecureCheckout, "completeSecureCheckout",false);
 			break;
     	}
     	waitTillPageLoad();
@@ -501,6 +511,7 @@ public class CommonPageActions {
     	
     	if((!configProperties.getProperty("server.site").equals("Homeserve"))&&
     			(!configProperties.getProperty("server.site").equals("servline-water"))&&
+    			(!configProperties.getProperty("server.site").equalsIgnoreCase("pk-yellow-no-redirect"))&&
     			(!configProperties.getProperty("server.site").equals("homeserve-ca"))){
     		clickElement(commonPageLocators.choosePaymentTYpe, "Choose Payment Type",false);
     	}
@@ -525,6 +536,7 @@ public class CommonPageActions {
 				break;
 			case "Homeserve":
 			case "servline-water":
+			case "pk-yellow-no-redirect":
 				WebElement Paymenttype = driver.findElement(By.className("select2-selection__rendered"));
 				Paymenttype.click();
 				sleep(2);
@@ -593,6 +605,7 @@ public class CommonPageActions {
     	}
 		if((configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))||
 				(configProperties.getProperty("server.site").equalsIgnoreCase("servline-water"))||
+				(configProperties.getProperty("server.site").equalsIgnoreCase("pk-yellow-no-redirect"))||
 				(configProperties.getProperty("server.site").equalsIgnoreCase("homeserve-ca"))){
 			clickElement(getWebElementByClass("billing-frequency__dropdown"),"Bill Frequency",false);
 			WebElement FreqDropdown = getWebElementByClass("billing-frequency__dropdown");

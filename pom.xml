@@ -191,7 +191,6 @@
             <scope>test</scope>
         </dependency>
 
-
     </dependencies>
 
 	<build>
@@ -205,15 +204,43 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 			</plugin>
+			
+			<!-- For Parallel Execution 
+			<plugin>
+				  <groupId>com.github.temyers</groupId>
+				  <artifactId>cucumber-jvm-parallel-plugin</artifactId>
+				  <version>5.0.0</version>
+				  <executions>
+				    <execution>
+				      <id>generateRunners</id>
+				      <phase>generate-test-sources</phase>
+				      <goals>
+				        <goal>generateRunners</goal>
+				      </goals>
+				      <configuration>
+				       
+				        <glue>
+				          <package>stepDefinations</package>
+				        </glue>
+				        <featureDirectory>src/test/resources/features</featureDirectory>
+						<cucumberOutputDir>target/cucumber-parallel</cucumberOutputDir>
+						<parallelScheme>SCENARIO</parallelScheme>
+				      </configuration>
+				    </execution>
+				  </executions>
+			</plugin> -->
+
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
 				<configuration>
-					<includes>
-						<include>**/*RunCuke.java</include>
-					</includes>
-					<argLine>-Xmx1024m</argLine>
+					<includes>**/*Runner.java</includes>
+					<parallel>methods</parallel>
+					<threadCount>4</threadCount>
+					<perCoreThreadCount>false</perCoreThreadCount>
+					<!--<useUnlimitedThreads>true</useUnlimitedThreads>-->
 				</configuration>
 			</plugin>
 			<plugin>

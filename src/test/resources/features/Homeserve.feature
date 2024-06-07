@@ -39,7 +39,7 @@ Feature: Homeserve feature file
     Then the user should see an order confirmation message
     Then open Gmail and Validate order number in confirmation email is received
 
-  @TC_004 @sanity @homeserve @sale
+  @TC_004 @homeserve @sale
   Scenario: Complete a Monthly sale in HomeServe with payment type as Credit or Debit Card
     When user enters a valid zipcode and clicks on View Plans
     Then add product to the cart and the user clicks on Proceed to Checkout

@@ -7,7 +7,7 @@ Feature: kandela feature file
   Background: User navigate to Homeserve-kandela application
     Given User is on "kandela" Home page
 
-  @TC_049 @sale @kandela
+  @TC_049 @sanity @sale @kandela
   Scenario: Complete a sale in HomeServe kandela
     When user enters a valid zipcode and clicks on View Plans
     Then add product to the cart and the user clicks on Proceed to Checkout

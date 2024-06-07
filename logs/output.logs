@@ -10753,3 +10753,721 @@
 2024-06-06 19:10:18 Order ID's Matched in Both UI and EMAIL
 
 2024-06-06 19:10:30 -------------------------------------------------------------------------------------------------
+2024-06-07 12:00:31 TC_061 - Complete a sale in pk-yellow-no-redirect with PaymetType as Credit or debit card
+
+2024-06-07 12:00:42 Site: pk-yellow-no-redirect
+
+2024-06-07 12:00:42 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 12:02:36 Clicked on Close cookies element
+
+2024-06-07 12:02:36 -------------------------Home Page-----------------------
+2024-06-07 12:02:37 Privacy Policy (opens in new window):https://www.reghomeserve.com/sc/legal/privacy-policy - Forbidden - is a broken link
+
+2024-06-07 12:02:38 California Privacy Notice (opens in new window):https://www.reghomeserve.com/sc/legal/california-privacy-notice - Forbidden - is a broken link
+
+2024-06-07 12:02:38 Terms of Use (opens in new window):https://www.reghomeserve.com/sc/legal/terms-of-use - Forbidden - is a broken link
+
+2024-06-07 12:02:38 Accessibility Statement (opens in new window):https://www.reghomeserve.com/sc/legal/accessibility-statement - Forbidden - is a broken link
+
+2024-06-07 12:02:38 Your Privacy Choices (opens in new window):https://www.reghomeserve.com/sc/data-privacy-form - Forbidden - is a broken link
+
+2024-06-07 12:02:41 Linkedin (opens in new window):https://www.linkedin.com/company/homeserve-usa - Request denied - is a broken link
+
+2024-06-07 12:03:06 TC_061 - Complete a sale in pk-yellow-no-redirect with PaymetType as Credit or debit card
+
+2024-06-07 12:03:13 Site: pk-yellow-no-redirect
+
+2024-06-07 12:03:13 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 12:03:34 Clicked on Close cookies element
+
+2024-06-07 12:03:35 Clicked on Enter Your ZIP Code element
+
+2024-06-07 12:03:35 Enter the zipcode: 37421
+
+2024-06-07 12:03:36 Clicked on See available Plans element
+
+2024-06-07 12:03:49 Clicked on Add to cart element
+
+2024-06-07 12:03:59 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 12:04:04 Clicked on Proceed To Checkout element
+
+2024-06-07 12:04:30 Clicked on Checkout element
+
+2024-06-07 12:04:40 Clicked on Bill Frequency element
+
+2024-06-07 12:04:40 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 12:04:54 Clicked on Continue to Payment Information element
+
+2024-06-07 12:05:09 Clicked on Yes, use this address element
+
+2024-06-07 12:05:22 Clicked on creditCardOption element
+
+2024-06-07 12:05:37 Clicked on completeSecureCheckout element
+
+2024-06-07 12:06:02 Order Number is : H863599
+
+2024-06-07 12:06:02 Sale completed.
+
+2024-06-07 12:06:06 OrderNumber from EMail= Order number: H863599
+
+2024-06-07 12:06:06 Order ID's Matched in Both UI and EMAIL
+
+2024-06-07 12:06:19 -------------------------------------------------------------------------------------------------
+2024-06-07 12:06:20 TC_062 - Complete a sale in pk-yellow-no-redirect with PaymetType as Checking Account
+
+2024-06-07 12:06:24 Site: pk-yellow-no-redirect
+
+2024-06-07 12:06:24 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 12:07:00 Clicked on Close cookies element
+
+2024-06-07 12:07:00 Clicked on Enter Your ZIP Code element
+
+2024-06-07 12:07:01 Enter the zipcode: 37421
+
+2024-06-07 12:07:01 Clicked on See available Plans element
+
+2024-06-07 12:07:11 Clicked on Add to cart element
+
+2024-06-07 12:07:21 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 12:07:33 Clicked on Proceed To Checkout element
+
+2024-06-07 12:07:57 Clicked on Checkout element
+
+2024-06-07 12:08:07 Clicked on Bill Frequency element
+
+2024-06-07 12:08:07 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 12:08:21 Clicked on Continue to Payment Information element
+
+2024-06-07 12:08:36 Clicked on Yes, use this address element
+
+2024-06-07 12:08:49 Clicked on Checking Account element
+
+2024-06-07 12:10:57 No WebObject completeSecureCheckout Found in UI, waited for :: 30 seconds
+2024-06-07 12:11:11 -------------------------------------------------------------------------------------------------
+2024-06-07 12:21:32 TC_061 - Complete a sale in pk-yellow-no-redirect with PaymetType as Credit or debit card
+
+2024-06-07 12:21:39 Site: pk-yellow-no-redirect
+
+2024-06-07 12:21:39 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 12:35:37 TC_061 - Complete a sale in pk-yellow-no-redirect with PaymetType as Credit or debit card
+
+2024-06-07 12:35:44 Site: pk-yellow-no-redirect
+
+2024-06-07 12:35:44 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 12:36:03 Clicked on Close cookies element
+
+2024-06-07 12:36:04 Clicked on Enter Your ZIP Code element
+
+2024-06-07 12:36:04 Enter the zipcode: 37421
+
+2024-06-07 12:36:04 Clicked on See available Plans element
+
+2024-06-07 12:36:15 Clicked on Add to cart element
+
+2024-06-07 12:36:25 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 12:36:30 Clicked on Proceed To Checkout element
+
+2024-06-07 12:36:52 Clicked on Checkout element
+
+2024-06-07 12:37:03 Clicked on Bill Frequency element
+
+2024-06-07 12:37:03 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 12:37:19 Clicked on Continue to Payment Information element
+
+2024-06-07 12:37:34 Clicked on Yes, use this address element
+
+2024-06-07 12:37:48 Clicked on creditCardOption element
+
+2024-06-07 12:38:04 Clicked on completeSecureCheckout element
+
+2024-06-07 12:38:25 Order Number is : H863607
+
+2024-06-07 12:38:25 Sale completed.
+
+2024-06-07 12:38:30 OrderNumber from EMail= Order number: H863607
+
+2024-06-07 12:38:30 Order ID's Matched in Both UI and EMAIL
+
+2024-06-07 12:38:44 -------------------------------------------------------------------------------------------------
+2024-06-07 12:38:45 TC_062 - Complete a sale in pk-yellow-no-redirect with PaymetType as Checking Account
+
+2024-06-07 12:38:49 Site: pk-yellow-no-redirect
+
+2024-06-07 12:38:49 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 12:39:09 Clicked on Close cookies element
+
+2024-06-07 12:39:10 Clicked on Enter Your ZIP Code element
+
+2024-06-07 12:39:10 Enter the zipcode: 37421
+
+2024-06-07 12:39:11 Clicked on See available Plans element
+
+2024-06-07 12:39:23 Clicked on Add to cart element
+
+2024-06-07 12:39:33 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 12:39:39 Clicked on Proceed To Checkout element
+
+2024-06-07 12:40:04 Clicked on Checkout element
+
+2024-06-07 12:40:15 Clicked on Bill Frequency element
+
+2024-06-07 12:40:15 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 12:40:28 Clicked on Continue to Payment Information element
+
+2024-06-07 12:40:43 Clicked on Yes, use this address element
+
+2024-06-07 12:40:56 Clicked on Checking Account element
+
+2024-06-07 12:42:24 Element completeSecureCheckout was not clickable in time
+2024-06-07 12:42:35 -------------------------------------------------------------------------------------------------
+2024-06-07 12:49:10 TC_062 - Complete a sale in pk-yellow-no-redirect with PaymetType as Checking Account
+
+2024-06-07 12:49:19 Site: pk-yellow-no-redirect
+
+2024-06-07 12:49:19 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 12:49:39 Clicked on Close cookies element
+
+2024-06-07 12:49:40 Clicked on Enter Your ZIP Code element
+
+2024-06-07 12:49:41 Enter the zipcode: 37421
+
+2024-06-07 12:49:41 Clicked on See available Plans element
+
+2024-06-07 12:49:53 Clicked on Add to cart element
+
+2024-06-07 12:50:03 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 12:50:09 Clicked on Proceed To Checkout element
+
+2024-06-07 12:50:34 Clicked on Checkout element
+
+2024-06-07 12:50:44 Clicked on Bill Frequency element
+
+2024-06-07 12:50:44 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 12:50:59 Clicked on Continue to Payment Information element
+
+2024-06-07 12:51:15 Clicked on Yes, use this address element
+
+2024-06-07 12:51:27 Clicked on Checking Account element
+
+2024-06-07 12:51:53 -------------------------------------------------------------------------------------------------
+2024-06-07 12:59:40 TC_062 - Complete a sale in pk-yellow-no-redirect with PaymetType as Checking Account
+
+2024-06-07 12:59:49 Site: pk-yellow-no-redirect
+
+2024-06-07 12:59:49 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 13:00:10 Clicked on Close cookies element
+
+2024-06-07 13:00:10 Clicked on Enter Your ZIP Code element
+
+2024-06-07 13:00:11 Enter the zipcode: 37421
+
+2024-06-07 13:00:11 Clicked on See available Plans element
+
+2024-06-07 13:00:23 Clicked on Add to cart element
+
+2024-06-07 13:00:33 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 13:00:38 Clicked on Proceed To Checkout element
+
+2024-06-07 13:01:04 Clicked on Checkout element
+
+2024-06-07 13:01:15 Clicked on Bill Frequency element
+
+2024-06-07 13:01:15 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 13:01:28 Clicked on Continue to Payment Information element
+
+2024-06-07 13:01:44 Clicked on Yes, use this address element
+
+2024-06-07 13:01:56 Clicked on Checking Account element
+
+2024-06-07 13:02:22 Element completeSecureCheckout was not clickable in time
+2024-06-07 13:02:33 -------------------------------------------------------------------------------------------------
+2024-06-07 13:06:05 TC_062 - Complete a sale in pk-yellow-no-redirect with PaymetType as Checking Account
+
+2024-06-07 13:06:18 Site: pk-yellow-no-redirect
+
+2024-06-07 13:06:18 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 13:06:36 Clicked on Close cookies element
+
+2024-06-07 13:06:37 Clicked on Enter Your ZIP Code element
+
+2024-06-07 13:06:38 Enter the zipcode: 37421
+
+2024-06-07 13:06:38 Clicked on See available Plans element
+
+2024-06-07 13:06:48 Clicked on Add to cart element
+
+2024-06-07 13:06:59 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 13:07:05 Clicked on Proceed To Checkout element
+
+2024-06-07 13:07:27 Clicked on Checkout element
+
+2024-06-07 13:07:37 Clicked on Bill Frequency element
+
+2024-06-07 13:07:37 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 13:07:51 Clicked on Continue to Payment Information element
+
+2024-06-07 13:08:06 Clicked on Yes, use this address element
+
+2024-06-07 13:08:19 Clicked on Checking Account element
+
+2024-06-07 13:08:45 Order Number is : H863621
+
+2024-06-07 13:08:45 Sale completed.
+
+2024-06-07 13:08:49 OrderNumber from EMail= Order number: H863621
+
+2024-06-07 13:08:49 Order ID's Matched in Both UI and EMAIL
+
+2024-06-07 13:09:02 -------------------------------------------------------------------------------------------------
+2024-06-07 15:16:29 TC_061 - Complete a sale in pk-yellow-no-redirect with PaymetType as Credit or debit card
+
+2024-06-07 15:28:29 TC_061 - Complete a sale in pk-yellow-no-redirect with PaymetType as Credit or debit card
+
+2024-06-07 15:28:40 Site: pk-yellow-no-redirect
+
+2024-06-07 15:28:40 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 15:29:04 Clicked on Close cookies element
+
+2024-06-07 15:29:04 Clicked on Enter Your ZIP Code element
+
+2024-06-07 15:29:05 Enter the zipcode: 37421
+
+2024-06-07 15:29:05 Clicked on See available Plans element
+
+2024-06-07 15:29:18 Clicked on Add to cart element
+
+2024-06-07 15:29:28 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 15:29:37 Clicked on Proceed To Checkout element
+
+2024-06-07 15:30:03 Clicked on Checkout element
+
+2024-06-07 15:30:13 Clicked on Bill Frequency element
+
+2024-06-07 15:30:13 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 15:30:28 Clicked on Continue to Payment Information element
+
+2024-06-07 15:30:44 Clicked on Yes, use this address element
+
+2024-06-07 15:30:57 Clicked on creditCardOption element
+
+2024-06-07 15:31:13 Clicked on completeSecureCheckout element
+
+2024-06-07 15:31:38 Order Number is : H863633
+
+2024-06-07 15:31:38 Sale completed.
+
+2024-06-07 15:31:44 OrderNumber from EMail= Order number: H863633
+
+2024-06-07 15:31:44 Order ID's Matched in Both UI and EMAIL
+
+2024-06-07 15:31:58 -------------------------------------------------------------------------------------------------
+2024-06-07 15:32:00 TC_062 - Complete a sale in pk-yellow-no-redirect with PaymetType as Checking Account
+
+2024-06-07 15:32:05 Site: pk-yellow-no-redirect
+
+2024-06-07 15:32:05 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 15:32:24 Clicked on Close cookies element
+
+2024-06-07 15:32:25 Clicked on Enter Your ZIP Code element
+
+2024-06-07 15:32:26 Enter the zipcode: 37421
+
+2024-06-07 15:32:26 Clicked on See available Plans element
+
+2024-06-07 15:32:39 Clicked on Add to cart element
+
+2024-06-07 15:32:49 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 15:32:57 Clicked on Proceed To Checkout element
+
+2024-06-07 15:33:45 Clicked on Checkout element
+
+2024-06-07 15:33:55 Clicked on Bill Frequency element
+
+2024-06-07 15:33:55 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 15:34:09 Clicked on Continue to Payment Information element
+
+2024-06-07 15:34:24 Clicked on Yes, use this address element
+
+2024-06-07 15:34:36 Clicked on Checking Account element
+
+2024-06-07 15:35:04 Order Number is : H863635
+
+2024-06-07 15:35:04 Sale completed.
+
+2024-06-07 15:35:09 OrderNumber from EMail= Order number: H863635
+
+2024-06-07 15:35:09 Order ID's Matched in Both UI and EMAIL
+
+2024-06-07 15:35:21 -------------------------------------------------------------------------------------------------
+2024-06-07 15:38:29 TC_052 - Complete Monthly sale in kingston with PaymetType as Account Number
+
+2024-06-07 15:38:37 Site: kingston
+
+2024-06-07 15:38:37 URL: https://preprod.slwofc.ca/mail/kingston
+
+2024-06-07 15:38:58 Clicked on Close cookies element
+
+2024-06-07 15:39:08 -------------------------Product Listing Page-----------------------
+2024-06-07 15:39:12 :https://preprod.slwofc.ca/mail/kingston - is a broken link
+
+2024-06-07 15:39:24 Opens in a new window:https://preprod.slwofc.ca/sc/media/mdb/pdf/SC-SSL2000-NSC-SLWC-J239-050119.pdf - is a broken link
+
+2024-06-07 15:40:44 TC_052 - Complete Monthly sale in kingston with PaymetType as Account Number
+
+2024-06-07 15:40:55 Site: kingston
+
+2024-06-07 15:40:55 URL: https://preprod.slwofc.ca/mail/kingston
+
+2024-06-07 15:44:51 TC_052 - Complete Monthly sale in kingston with PaymetType as Account Number
+
+2024-06-07 15:45:01 Site: kingston
+
+2024-06-07 15:45:01 URL: https://preprod.slwofc.ca/mail/kingston
+
+2024-06-07 15:46:12 -------------------------Product Listing Page-----------------------
+2024-06-07 15:46:12 :chrome-error://chromewebdata/#buttons - is a broken link
+
+2024-06-07 15:46:12 --------------------------------------------------------------
+2024-06-07 15:47:46 No WebObject Select A Plan Found in UI, waited for :: 30 seconds
+2024-06-07 15:47:59 -------------------------------------------------------------------------------------------------
+2024-06-07 15:48:00 TC_047 - Complete a sale in HomeServe kypower-tabs
+
+2024-06-07 15:48:05 Site: kypower-tabs
+
+2024-06-07 15:48:05 URL: https://www.reghomeserve.com/sc/mail/kypower-tabs 
+
+2024-06-07 15:48:34 Clicked on Close cookies element
+
+2024-06-07 15:48:34 -------------------------Product Listing Page-----------------------
+2024-06-07 15:48:35 :https://www.reghomeserve.com/sc/mail/kypower-tabs/about-us - Forbidden - is a broken link
+
+2024-06-07 15:48:36 :https://www.reghomeserve.com/sc/login - Forbidden - is a broken link
+
+2024-06-07 15:48:36 :https://www.reghomeserve.com/sc/mail/kypower-tabs - Forbidden - is a broken link
+
+2024-06-07 15:48:36 :https://www.reghomeserve.com/sc/mail/kypower-tabs/about-us - Forbidden - is a broken link
+
+2024-06-07 15:48:36 :https://www.reghomeserve.com/sc/login - Forbidden - is a broken link
+
+2024-06-07 15:48:37 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10025 - Forbidden - is a broken link
+
+2024-06-07 15:48:37 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10025 - Forbidden - is a broken link
+
+2024-06-07 15:48:37 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10025 - Forbidden - is a broken link
+
+2024-06-07 15:48:37 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10025#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:38 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:38 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-EEWT-NHRW-HRM-W-U894-070123.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:38 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10068 - Forbidden - is a broken link
+
+2024-06-07 15:48:38 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10068 - Forbidden - is a broken link
+
+2024-06-07 15:48:38 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10068 - Forbidden - is a broken link
+
+2024-06-07 15:48:39 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10068#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:39 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:40 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-IE-V003-060623.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:41 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10058 - Forbidden - is a broken link
+
+2024-06-07 15:48:42 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10058 - Forbidden - is a broken link
+
+2024-06-07 15:48:42 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10058 - Forbidden - is a broken link
+
+2024-06-07 15:48:43 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10058#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:43 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:43 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-COOL-V015-060923.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:43 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10062 - Forbidden - is a broken link
+
+2024-06-07 15:48:44 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10062 - Forbidden - is a broken link
+
+2024-06-07 15:48:44 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10062 - Forbidden - is a broken link
+
+2024-06-07 15:48:44 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10062#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:44 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:44 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-HEAT-V017-060923.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:45 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10066 - Forbidden - is a broken link
+
+2024-06-07 15:48:45 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10066 - Forbidden - is a broken link
+
+2024-06-07 15:48:45 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10066 - Forbidden - is a broken link
+
+2024-06-07 15:48:45 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10066#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:45 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:46 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-IPD-V002-060623.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:46 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10027 - Forbidden - is a broken link
+
+2024-06-07 15:48:46 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10027 - Forbidden - is a broken link
+
+2024-06-07 15:48:46 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10027 - Forbidden - is a broken link
+
+2024-06-07 15:48:46 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10027#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:47 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:47 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-COOL-U892-060523.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:47 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10031 - Forbidden - is a broken link
+
+2024-06-07 15:48:47 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10031 - Forbidden - is a broken link
+
+2024-06-07 15:48:47 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10031 - Forbidden - is a broken link
+
+2024-06-07 15:48:47 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10031#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:48 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:48 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-HVAC-U897-060523.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:48 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10060 - Forbidden - is a broken link
+
+2024-06-07 15:48:48 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10060 - Forbidden - is a broken link
+
+2024-06-07 15:48:48 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10060 - Forbidden - is a broken link
+
+2024-06-07 15:48:49 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10060#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:49 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:49 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-GAS-V016-060923.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:49 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10064 - Forbidden - is a broken link
+
+2024-06-07 15:48:49 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10064 - Forbidden - is a broken link
+
+2024-06-07 15:48:50 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10064 - Forbidden - is a broken link
+
+2024-06-07 15:48:50 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10064#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:50 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:50 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-WSL-V019-060923.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:50 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10008 - Forbidden - is a broken link
+
+2024-06-07 15:48:50 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10008 - Forbidden - is a broken link
+
+2024-06-07 15:48:51 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10008 - Forbidden - is a broken link
+
+2024-06-07 15:48:51 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10008#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:51 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:51 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-SSL-V018-060923.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:51 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10030 - Forbidden - is a broken link
+
+2024-06-07 15:48:51 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10030 - Forbidden - is a broken link
+
+2024-06-07 15:48:52 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10030 - Forbidden - is a broken link
+
+2024-06-07 15:48:52 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10030#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:52 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:52 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-HEAT-U895-060523.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:52 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10034 - Forbidden - is a broken link
+
+2024-06-07 15:48:52 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10034 - Forbidden - is a broken link
+
+2024-06-07 15:48:53 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10034 - Forbidden - is a broken link
+
+2024-06-07 15:48:53 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10034#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:48:53 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:48:53 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-WHRR-U899-060523.pdf - Forbidden - is a broken link
+
+2024-06-07 15:48:53 :https://www.reghomeserve.com/sc/mail/kypower-tabs%C2%A0#top-of-page - Forbidden - is a broken link
+
+2024-06-07 15:48:53 opens in a new window:https://www.reghomeserve.com/sc/legal/privacy-policy - Forbidden - is a broken link
+
+2024-06-07 15:48:54 opens in a new window:https://www.reghomeserve.com/sc/legal/california-privacy-notice - Forbidden - is a broken link
+
+2024-06-07 15:48:54 opens in a new window:https://www.reghomeserve.com/sc/legal/terms-of-use - Forbidden - is a broken link
+
+2024-06-07 15:48:54 opens in a new window:https://www.reghomeserve.com/sc/legal/accessibility-statement - Forbidden - is a broken link
+
+2024-06-07 15:48:54 opens in a new window:https://www.reghomeserve.com/sc/data-privacy-form - Forbidden - is a broken link
+
+2024-06-07 15:48:57 Opens in a new window:https://www.linkedin.com/company/homeserve-usa - Request denied - is a broken link
+
+2024-06-07 15:48:57 :https://www.reghomeserve.com/sc/mail/kypower-tabs%C2%A0#ni - Forbidden - is a broken link
+
+2024-06-07 15:48:58 Opens in a new window:https://www.bbb.org/connecticut/business-reviews/water-and-sewer-line-protection/homeserve-usa-corp-in-norwalk-ct-87067998 - Forbidden - is a broken link
+
+2024-06-07 15:49:05 --------------------------------------------------------------
+2024-06-07 15:49:05 Clicked on  Electrical Tab element
+
+2024-06-07 15:49:06 Clicked on Add to cart element
+
+2024-06-07 15:49:16 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 15:49:21 Clicked on Proceed To Checkout element
+
+2024-06-07 15:49:35 Clicked on Proceed To Checkout element
+
+2024-06-07 15:49:58 Enter the zipcode: 41005
+
+2024-06-07 15:50:10 Clicked on completeSecureCheckout element
+
+2024-06-07 15:50:31 Clicked on use the address element
+
+2024-06-07 15:51:02 Order Number is: H863638
+
+2024-06-07 15:51:02 Sale completed.
+
+2024-06-07 15:51:02 -------------------------Order Confirmation Page-----------------------
+2024-06-07 15:51:02 :https://www.reghomeserve.com/sc/mail/kypower - Forbidden - is a broken link
+
+2024-06-07 15:51:02 :mailto:info@HomeServeusa.com - is a broken link
+
+2024-06-07 15:51:02 :mailto:info@HomeServeusa.com - is a broken link
+
+2024-06-07 15:51:06 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10068 - Forbidden - is a broken link
+
+2024-06-07 15:51:06 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10068 - Forbidden - is a broken link
+
+2024-06-07 15:51:06 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10068 - Forbidden - is a broken link
+
+2024-06-07 15:51:06 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10068#c372-product-cover-info - is a broken link
+
+2024-06-07 15:51:06 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:51:07 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-IE-V003-060623.pdf - Forbidden - is a broken link
+
+2024-06-07 15:51:07 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10062 - Forbidden - is a broken link
+
+2024-06-07 15:51:07 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10062 - Forbidden - is a broken link
+
+2024-06-07 15:51:07 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10062 - Forbidden - is a broken link
+
+2024-06-07 15:51:07 :https://www.reghomeserve.com/sc/mail/kypower-tabs/products/details?p=10062#c372-product-cover-info - Forbidden - is a broken link
+
+2024-06-07 15:51:08 :https://www.reghomeserve.com/sc/mail/kypower-tabs/intercept - Forbidden - is a broken link
+
+2024-06-07 15:51:08 Opens in a new window:https://www.reghomeserve.com/sc/media/mdb/pdf/SC-CFC1009-NHRW-HRM-W-HEAT-V017-060923.pdf - Forbidden - is a broken link
+
+2024-06-07 15:51:08 opens in a new window:https://www.reghomeserve.com/sc/legal/privacy-policy - Forbidden - is a broken link
+
+2024-06-07 15:51:08 opens in a new window:https://www.reghomeserve.com/sc/legal/california-privacy-notice - Forbidden - is a broken link
+
+2024-06-07 15:51:08 opens in a new window:https://www.reghomeserve.com/sc/legal/terms-of-use - Forbidden - is a broken link
+
+2024-06-07 15:51:09 opens in a new window:https://www.reghomeserve.com/sc/legal/accessibility-statement - Forbidden - is a broken link
+
+2024-06-07 15:51:09 opens in a new window:https://www.reghomeserve.com/sc/data-privacy-form - Forbidden - is a broken link
+
+2024-06-07 15:51:12 :https://www.reghomeserve.com/sc/mail/kypower-tabs/checkout/order-confirmation/h863638#ni - Forbidden - is a broken link
+
+2024-06-07 15:51:13 Opens in a new window:https://www.bbb.org/connecticut/business-reviews/water-and-sewer-line-protection/homeserve-usa-corp-in-norwalk-ct-87067998 - Forbidden - is a broken link
+
+2024-06-07 15:51:14 --------------------------------------------------------------
+2024-06-07 15:51:18 OrderNumber from EMail= Order number: H863638
+
+2024-06-07 15:51:18 Order ID's Matched in Both UI and EMAIL
+
+2024-06-07 15:51:29 -------------------------------------------------------------------------------------------------
+2024-06-07 15:51:30 TC_061 - Complete a sale in pk-yellow-no-redirect with PaymetType as Credit or debit card
+
+2024-06-07 15:51:34 Site: pk-yellow-no-redirect
+
+2024-06-07 15:51:34 URL: https://www.reghomeserve.com/en-us/clp/display/pk-yellow-no-redirect/?ncr=true
+
+2024-06-07 15:51:56 Clicked on Close cookies element
+
+2024-06-07 15:51:57 Clicked on Enter Your ZIP Code element
+
+2024-06-07 15:51:57 Enter the zipcode: 37421
+
+2024-06-07 15:51:58 Clicked on See available Plans element
+
+2024-06-07 15:52:10 Clicked on Add to cart element
+
+2024-06-07 15:52:20 Add To Cartproduct is added to Cart successfully
+
+2024-06-07 15:52:29 Clicked on Proceed To Checkout element
+
+2024-06-07 15:52:54 Clicked on Checkout element
+
+2024-06-07 15:53:04 Clicked on Bill Frequency element
+
+2024-06-07 15:53:04 Billing Frequency is selected as 'Monthly'
+
+2024-06-07 15:53:18 Clicked on Continue to Payment Information element
+
+2024-06-07 15:53:33 Clicked on Yes, use this address element
+
+2024-06-07 15:53:45 Clicked on creditCardOption element
+
+2024-06-07 15:54:01 Clicked on completeSecureCheckout element
+
+2024-06-07 15:54:55 Order Number is : H863640
+
+2024-06-07 15:54:55 Sale completed.
+
+2024-06-07 15:56:31 -------------------------------------------------------------------------------------------------
+2024-06-07 15:59:06 TC_052 - Complete Monthly sale in kingston with PaymetType as Account Number
+
+2024-06-07 15:59:14 Site: kingston
+
+2024-06-07 15:59:14 URL: https://preprod.slwofc.ca/mail/kingston
+
+2024-06-07 15:59:29 Clicked on Close cookies element
+
+2024-06-07 15:59:39 -------------------------Product Listing Page-----------------------
+2024-06-07 15:59:50 Opens in a new window:https://preprod.slwofc.ca/sc/media/mdb/pdf/SC-SSL2000-NSC-SLWC-J239-050119.pdf - Not Found - is a broken link
+
+2024-06-07 16:00:06 Opens in a new window:http://www.bbb.org/pittsburgh/business-reviews/extended-warranty-contract-service-companies/service-line-warranties-of-america-in-canonsburg-pa-16002086/#sealclick - Forbidden - is a broken link
+
+2024-06-07 16:00:08 Opens in a new window:http://twitter.com/SLWANews - Moved Permanently - is a broken link
+
+2024-06-07 16:00:08 --------------------------------------------------------------
+2024-06-07 16:00:09 Clicked on Select A Plan element
+
+2024-06-07 16:00:11 Clicked on Add to cart element
+

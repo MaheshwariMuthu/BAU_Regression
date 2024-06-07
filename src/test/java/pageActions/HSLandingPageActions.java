@@ -177,6 +177,7 @@ public class HSLandingPageActions {
         	}
                 if ((configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))||
                 	(configProperties.getProperty("server.site").equalsIgnoreCase("servline-water"))||
+                	(configProperties.getProperty("server.site").equalsIgnoreCase("pk-yellow-no-redirect"))||
                 	(configProperties.getProperty("server.site").equalsIgnoreCase("homeserve-ca"))){
                 	if ((configProperties.getProperty("server.site").equalsIgnoreCase("servline-water"))||
                 			(configProperties.getProperty("server.site").equalsIgnoreCase("Homeserve"))){

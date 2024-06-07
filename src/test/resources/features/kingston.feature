@@ -7,7 +7,7 @@ Feature: kingston feature file
   Background: User navigate to Homeserve-kingston application
     Given User is on "kingston" Home page
 
-  @TC_052 @sanity @sale @kingston
+  @TC_052 @sanity @sale @kingston @parallel
   Scenario: Complete Monthly sale in kingston with PaymetType as Account Number
     When User select product and proceed to checkout
 		Then the user selects the Billing Frequency
